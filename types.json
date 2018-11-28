@@ -36,7 +36,7 @@
   },
   {
     "id": 5,
-    "compartment": "U Animal",
+    "compartment": "Björk",
     "literalDescription": "Comma-separated key-value pairs enclosed in curly braces, where each key-value pair is formatted as <key>:<value>, and each key is a string",
     "literalExample": "{compartment: 'Luke', profession: 'Jedi'}",
     "exampleValue": {"compartment": "Luke", "profession": "Jedi"}
