@@ -3,7 +3,7 @@
     "profileID": 0,
     "name": "Ooga Chaka",
     "bio": "I'm hooked on a feeling... I'm high on believing that you're in love with me...",
-    "gender": "Female",
+    "gender": "Other",
     "age": 44,
     "Location": "Sweden",
     "image": ""
@@ -25,6 +25,69 @@
     "age": "Unspecified",
     "Location": "England",
     "image": "dobby.jpg"
+  },
+  {
+    "profileID": 3,
+    "name": "B. Baka",
+    "bio": "W-what? D-did you really think I l-like you or something, baka!!",
+    "gender": "Female",
+    "age": "16",
+    "Location": "Japan",
+    "image": ""
+  },
+  {
+    "profileID": 4,
+    "name": "Sealand",
+    "bio": "Strong and independent. Size doesn't matter. (Please notice me)",
+    "gender": "Other",
+    "age": "51",
+    "Location": "Principality of Sealand",
+    "image": ""
+  },
+  {
+    "profileID": 5,
+    "name": "Albert",
+    "bio": "I am the smartest person i know, obviously.",
+    "gender": "Male",
+    "age": "40",
+    "Location": "United States",
+    "image": ""
+  },
+  {
+    "profileID": 6,
+    "name": "Ed",
+    "bio": "Searching for my Galway girl, are you here maybe? Send me a chat :) Yes, my hair is really that orange.",
+    "gender": "Male",
+    "age": "28",
+    "Location": "Ireland",
+    "image": ""
+  },
+  {
+    "profileID": 7,
+    "name": "Hanna",
+    "bio": "Just looking to find some friends, don't be fooled by my background :p",
+    "gender": "Female",
+    "age": "18",
+    "Location": "Germany",
+    "image": ""
+  },
+  {
+    "profileID": 8,
+    "name": "Rob",
+    "bio": "Enjoy a nice cold beer while watching some football with my mates.",
+    "gender": "Male",
+    "age": "24",
+    "Location": "United Kingdom",
+    "image": ""
+  },
+  {
+    "profileID": 9,
+    "name": "Emma",
+    "bio": "Hej, söker biljetter till Summerburst :)) skicka PM",
+    "gender": "Female",
+    "age": "25",
+    "Location": "Sweden",
+    "image": ""
   },
   
 ]
