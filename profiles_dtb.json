@@ -1,1 +1,30 @@
-// Databas för profilerna
+[
+  {
+    "profileID": 0,
+    "name": "Ooga Chaka",
+    "bio": "I'm hooked on a feeling... I'm high on believing that you're in love with me...",
+    "gender": "Female",
+    "age": 44,
+    "Location": "Sweden",
+    "image": ""
+  },
+  {
+    "profileID": 1,
+    "name": "Dick Pick",
+    "bio": "I know you want to fiddle with me, 'cause that's what I'm good at. If you want to play, don't forget to use me",
+    "gender": "Male",
+    "age": 23,
+    "Location": "North Plympton, Australia",
+    "image": ""
+  },
+  {
+    "profileID": 2,
+    "name": "Dobby",
+    "bio": "I'm tired of being a free elf... Need a master to tie me down and make me do all the dirty chores ;) I'll gladly take your sock any day (or take them off, if you know what I mean ;))",
+    "gender": "Male",
+    "age": "Unspecified",
+    "Location": "England",
+    "image": "dobby.jpg"
+  },
+  
+]
