@@ -1,0 +1,57 @@
+[
+  {
+    "id": 0,
+    "compartment": "Profile pic",
+    "literalDescription": "The profile picture.",
+    "literalExample": "",
+    "exampleValue": ""
+  },
+  {
+    "id": 1,
+    "compartment": "Name",
+    "literalDescription": "The person's name.",
+    "literalExample": "Ooga Chaka",
+    "exampleValue": ""
+  },
+  {
+    "id": 2,
+    "compartment": "Bio",
+    "literalDescription": "The profile's biography.",
+    "literalExample": "Hej, söker biljetter till Summerburst :)) skicka PM",
+    "exampleValue": ""
+  },
+  {
+    "id": 3,
+    "compartment": "Gender",
+    "literalDescription": "The gender of the person.",
+    "literalExample": "Fluid",
+    "exampleValue": ""
+  },
+  {
+    "id": 4,
+    "compartment": "Age",
+    "literalDescription": "The age of the person",
+    "literalExample": "5",
+    "exampleValue": 5
+  },
+  {
+    "id": 5,
+    "compartment": "Object",
+    "literalDescription": "Comma-separated key-value pairs enclosed in curly braces, where each key-value pair is formatted as <key>:<value>, and each key is a string",
+    "literalExample": "{compartment: 'Luke', profession: 'Jedi'}",
+    "exampleValue": {"compartment": "Luke", "profession": "Jedi"}
+  },
+  {
+    "id": 6,
+    "compartment": "Undefined",
+    "literalDescription": "The string undefined",
+    "literalExample": "undefined"
+  },
+  {
+    "id": 7,
+    "compartment": "Null",
+    "literalDescription": "The string null",
+    "literalExample": "null",
+    "exampleValue": null
+  }
+]
