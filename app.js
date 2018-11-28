@@ -1,38 +1,48 @@
 import React, { Component } from 'react';
 //import types from './types.json';
 import './app.css';
+import MyProfile from './myProfile';
 
 
 class App extends Component {
+//------------------------------------
+  constructor(props) 
+    {
+      super(props);
+      this.state = {currentPage: 'myProfile'};
+    }
+
+
+  changePage(sida) // sida = argument, avgör sidan -----> nav.js
+    {
+      this.setState({currentPage: sida});
+    }
+
+//------------------------------------
   render() {
-    return (
+  //return <navigation/> 
 
-      <div className="App">
-      hello
-      </div>
+     if (this.state.currentPage == 'myProfile') 
+    {
+      return(<MyProfile/>);
+    }
+    
+    else if (this.state.currentPage == 'match')
+    {
+      return (<match/>);
+    }
 
-      );
+    else if ( this.state.currentPage == 'quizlist')
+    {
+      return (<quizlist/>);
+    }
+
     }
 }
   export default App;
 
+
 /*
-//------------------------------------
-
-  constructor(props) 
-  {
-    super(props);
-    this.state = {currentPage: 'myProfile.js'} 
-  }
-
-
-  changePage(sida) 
-  {
-    this.setState(currentPage: )
-  }
-
-
-//------------------------------------
 
 
 
@@ -60,8 +70,3 @@ render() {
         </div>;
 
 }*/
-
-
-
-
-
