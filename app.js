@@ -1,84 +1,67 @@
 import React, { Component } from 'react';
-import types from './types.json';
+//import types from './types.json';
 import './app.css';
 
-class TypeInfo extends React.Component{
 
-//------------------------------------
+class App extends Component {
+  render() {
+    return (
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      visible: false
+      <div className="App">
+      hello
+      </div>
+
+      );
     }
-    this.toggleVisibility = this.toggleVisibility.bind(this); // See (*)
+}
+  export default App;
+
+/*
+//------------------------------------
+
+  constructor(props) 
+  {
+    super(props);
+    this.state = {currentPage: 'myProfile.js'} 
   }
 
 
-  toggleVisibility() {
-    this.setState({
-      visible: !this.state.visible
-    });
+  changePage(sida) 
+  {
+    this.setState(currentPage: )
   }
+
 
 //------------------------------------
+
+
 
 render() {
+  return <navigation/>
 
-    const t = this.props.type;
+    //const t = this.props.type;
 
-    if (this.state.visible) {
-      return (
-        <div key={t.id}>
-          <h2>{t.compartment}</h2>
-          <MoreTypeInfo key={t.id} type ={t}/>
-          <button onClick={this.toggleVisibility}> Show less </button>
-        </div>
-      );
-
-    } 
-    else {
-      return(
-        <div key={t.id}>
-          <h2>{t.compartment}</h2>
-          <button onClick={this.toggleVisibility}> Show more </button>
-        </div>
-      );
+    if (this.state.currentPage == "sida1") 
+    {
+      return (<sida1/>);
     }
-  }
-}
+    
+    else if ( currentPage = "sida2")
+    {
+      return (<sida2/>)
+    }
 
-class MoreTypeInfo extends React.Component{
 
-  render() {
-
-    console.log(types);
-
-    const t = this.props.type;
-
-    return(
-      <div key={t.id}>
-        <p>Literal description: {t.literalDescription}</p>
-        <p>Literal example: {t.literalExample}</p>
-      </div>
-    )
-  }
-}
-
-class TypeApp extends Component {
-
-    render() {
-
-    console.log(types);
+    //console.log(types);
 
       return <div>
-        <h1>PROJECT</h1>
-          {
-           types.map((type) => {
-            return(<TypeInfo key={type.id} type ={type}/>);
-            })
-          }
+        <h1>STARTPAGE_PROJECT</h1>
+
         </div>;
-    }  
-}
-export default TypeApp;
+
+}*/
+
+
+
+
+
