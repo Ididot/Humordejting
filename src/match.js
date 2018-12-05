@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import types from './types.json';
 import './match.css';
-
+import App from './app';
+import Profile from './profile'
 
 class Match extends Component {
 
@@ -11,6 +11,10 @@ class Match extends Component {
 
       return <div>
         <h1>MATCH</h1>
+
+    <button onClick={() => this.setState({currentPage: 'profile'}).bind(this)}> 
+	Profile
+	</button> 
 
         </div>;
 
