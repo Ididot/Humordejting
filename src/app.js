@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-//import types from './types.json';
 import './app.css';
-import MyProfile from './myProfile';
+import Match from './match';
+import Profile from './profile';
+//import Nav from './nav';
+
 
 
 class App extends Component {
@@ -9,64 +11,39 @@ class App extends Component {
   constructor(props) 
     {
       super(props);
-      this.state = {currentPage: 'myProfile'};
+      this.state = ({currentPage: 'profile'});
     }
 
 
-  changePage(sida) // sida = argument, avgör sidan -----> nav.js
+ changePage(sida)
     {
       this.setState({currentPage: sida});
+   
+  
     }
 
-//------------------------------------
-  render() {
-  //return <navigation/> 
 
-     if (this.state.currentPage == 'myProfile') 
+//------------------------------------
+
+
+
+  render() {
+      
+
+    //return( <Nav/>)
+      
+
+     if (this.state.currentPage == 'profile') 
     {
-      return(<MyProfile/>);
+      return( <Profile changePage="??"/>);
     }
     
     else if (this.state.currentPage == 'match')
     {
-      return (<match/>);
+      return (<Match/>);
     }
 
-    else if ( this.state.currentPage == 'quizlist')
-    {
-      return (<quizlist/>);
-    }
 
     }
 }
   export default App;
-
-
-/*
-
-
-
-render() {
-  return <navigation/>
-
-    //const t = this.props.type;
-
-    if (this.state.currentPage == "sida1") 
-    {
-      return (<sida1/>);
-    }
-    
-    else if ( currentPage = "sida2")
-    {
-      return (<sida2/>)
-    }
-
-
-    //console.log(types);
-
-      return <div>
-        <h1>STARTPAGE_PROJECT</h1>
-
-        </div>;
-
-}*/
