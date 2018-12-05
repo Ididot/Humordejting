@@ -7,17 +7,13 @@ class Match extends Component {
 
     render() {
 
-    //console.log(types);
+      return (
 
-      return <div>
+      	<div>
         <h1>MATCH</h1>
-
-    <button onClick={() => this.setState({currentPage: 'profile'}).bind(this)}> 
-	Profile
-	</button> 
-
-        </div>;
-
+        </div>
+	      
+	)
     }  
 }
 export default Match;
