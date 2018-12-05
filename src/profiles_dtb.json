@@ -1,93 +1,52 @@
 [
   {
     "profileID": 0,
-    "name": "Ooga Chaka",
-    "bio": "I'm hooked on a feeling... I'm high on believing that you're in love with me...",
-    "gender": "Other",
-    "age": 44,
-    "Location": "Sweden",
-    "image": ""
+    "name": " Khaleesi ",
+    "bio": " I <3 Imagine dragons ",
+    "gender": "Female",
+    "age": "21",
+    "location": "Västerås",
+    "img":"danni.JPG"
   },
+
   {
     "profileID": 1,
-    "name": "Dick Pick",
-    "bio": "I know you want to fiddle with me, 'cause that's what I'm good at. If you want to play, don't forget to use me",
+    "name": "Ramsay Bolton",
+    "bio": " I enjoy long walks in the forest with my doggies",
     "gender": "Male",
-    "age": 23,
-    "Location": "North Plympton, Australia",
-    "image": ""
+    "age": "25",
+    "location": "Västerås",
+    "img":"ram.JPG"
   },
+
   {
     "profileID": 2,
-    "name": "Dobby",
-    "bio": "I'm tired of being a free elf... Need a master to tie me down and make me do all the dirty chores ;) I'll gladly take your sock any day (or take them off, if you know what I mean ;))",
+    "name": "Jon Sno' ",
+    "bio": " I kno nottin' ",
     "gender": "Male",
-    "age": "Unspecified",
-    "Location": "England",
-    "image": "dobby.jpg"
+    "age": "22",
+    "location": "Västerås",
+    "img":"jon.JPG"
   },
-  {
+
+ {
     "profileID": 3,
-    "name": "B. Baka",
-    "bio": "W-what? D-did you really think I l-like you or something, baka!!",
+    "name": "Brienne of Tarth'",
+    "bio": " Fite me ",
     "gender": "Female",
-    "age": "16",
-    "Location": "Japan",
-    "image": ""
+    "age": "30",
+    "location": "Västerås",
+    "img":"brien.JPG"
   },
-  {
+
+ {
     "profileID": 4,
-    "name": "Sealand",
-    "bio": "Strong and independent. Size doesn't matter. (Please notice me)",
-    "gender": "Other",
-    "age": "51",
-    "Location": "Principality of Sealand",
-    "image": ""
-  },
-  {
-    "profileID": 5,
-    "name": "Albert",
-    "bio": "I am the smartest person i know, obviously.",
+    "name": " Tormund ",
+    "bio": " Looking for Brienne ",
     "gender": "Male",
     "age": "40",
-    "Location": "United States",
-    "image": ""
-  },
-  {
-    "profileID": 6,
-    "name": "Ed",
-    "bio": "Searching for my Galway girl, are you here maybe? Send me a chat :) Yes, my hair is really that orange.",
-    "gender": "Male",
-    "age": "28",
-    "Location": "Ireland",
-    "image": ""
-  },
-  {
-    "profileID": 7,
-    "name": "Hanna",
-    "bio": "Just looking to find some friends, don't be fooled by my background :p",
-    "gender": "Female",
-    "age": "18",
-    "Location": "Germany",
-    "image": ""
-  },
-  {
-    "profileID": 8,
-    "name": "Rob",
-    "bio": "Enjoy a nice cold beer while watching some football with my mates.",
-    "gender": "Male",
-    "age": "24",
-    "Location": "United Kingdom",
-    "image": ""
-  },
-  {
-    "profileID": 9,
-    "name": "Emma",
-    "bio": "Hej, söker biljetter till Summerburst :)) skicka PM",
-    "gender": "Female",
-    "age": "25",
-    "Location": "Sweden",
-    "image": ""
-  },
-  
+    "location": " Norra Västerås",
+    "img":"tor.JPG"
+  }
+
 ]
