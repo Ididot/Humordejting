@@ -1,0 +1,37 @@
+[
+  {
+    "memeID": 0,
+    "bio": "Han slänger bort",
+    "image": "throw.GIF"
+  },
+
+  {
+    "memeID": 1,
+    "bio": "Vem fan är Jesus?",
+    "image": "jesus.JPG"
+  },
+
+  {
+    "memeID": 2,
+    "bio": "En duva som sitter",
+    "image": "sit.JPG"
+  },
+
+  {
+    "memeID": 3,
+    "bio": "Drunknar du ger jag dig en high five",
+    "image": "five.JPG"
+  },
+
+  {
+    "memeID": 4,
+    "bio": "En fin ödla",
+    "image": "lizard.PNG"
+  },
+
+  {
+    "memeID": 5,
+    "bio": "En sur katt",
+    "image": "cat.PNG"
+  }
+ ]
