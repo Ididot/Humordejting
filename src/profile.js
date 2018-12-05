@@ -3,22 +3,18 @@ import React, { Component } from 'react';
 import App from './app';
 import profiles_dtb from './profiles_dtb.json';
 
-//import {StyleSheet, Text, View} from 'react-native';
-// How to compare my profile with other profiles.
-//import './profile.css';
 
-
-class Profile extends Component {
+class Profiles extends React.Component {
 
 
     constructor(){
-        super(props); //ger this kontexten av dess komponent, inte parents
+        super(); 
         this.state = {
-            //currentProfile: 0
+            currentProfile: 0
         }
-    this.onClick = this.handleClick.bind(this);
     }
 
+//------------------------------------
 /*
     constructor(){
         super(); //ger this kontexten av dess komponent, inte parents
@@ -27,8 +23,8 @@ class Profile extends Component {
         }
         this.onClick = this.handleClick.bind(this);
     }
-*/
-/* // Klicka för att byta profil
+
+// Klicka för att byta profil
     handleClick(event){
         this.setState({
                 currentProfile: this.state.currentProfile+1
@@ -36,60 +32,44 @@ class Profile extends Component {
     }
 
 */
-
 //------------------------------------
-
 
 
     render() {
 
-        const t = this.props.type;
-
         console.log(profiles_dtb);
-        // const t = profiles_dtb[2].type;
-        // key={t.profileID}
-        // Fixa lista
-        // Hämta plats i array från klick i matchlist
-        // 
-        
-        <div key={t.id}>
-        /*
-        const img = profiles_dtb[2].img;
-        const name = profiles_dtb[2].name;
-        const bio = profiles_dtb[2].bio;
-        const gender = profiles_dtb[2].gender;
-        const age = profiles_dtb[2].age;
-        const location = profiles_dtb[2].location;
-		*/
 
-        let t = profiles_dtb[this.state.currentProfile]
+        let t = this.state.currentProfile;
 
 		return (
 
             <div> 
 
-        	   <h1>Profile</h1>
-         
-                <div >
-         
-                <img  onClick= {this.onClick}  src={"./img/./prof/"+profiles_dtb[this.state.currentProfile].img} alt="{t.name}"/>
+                <h1>Profile</h1>
+              
+            {
+                profiles_dtb.map((currentProfile) => {
+                    return (
 
-                <div> Name: {t.name} </div>
-                <div> Bio: {t.bio} </div>
-                <div> Gender:{t.gender}  </div>
-                <div> Age: {t.age} </div>
-                <div> Location: {t.location} </div>
+                            <div>
 
-            </div>
-        
-    
-        <button onClick= {() => this.setState({currentPage: 'match'}).bind(this)}> 
-        Match 
-        </button> 
+                                <img   src={"./img/./prof/"+currentProfile.img} key="{currentProfile.profileID}"/>
 
-        	</div>
+                                <div> Name: {currentProfile.name} </div>
+                                <div> Bio: {currentProfile.bio} </div>
+                                <div> Gender:{currentProfile.gender} </div>
+                                <div> Age: {currentProfile.age} </div>
+                                <div> Location: {currentProfile.location} </div>
 
-        )
+                            </div>
+                    );
+                })
+            }
+
+
+            </div> 
+        );
     }  
-}
-export default Profile;
+} export default Profiles ;
+
+
