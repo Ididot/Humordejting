@@ -1,5 +1,5 @@
 import React from 'react';
-import meme from './meme.json';
+import memes from './meme.json';
 
 class Quiz extends React.Component { 
 	constructor(){
