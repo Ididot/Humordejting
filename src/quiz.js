@@ -26,7 +26,7 @@ handleClick(event){
 	}
 	else
 	{
-		this.props.changePage('profile')
+		this.props.changePage('match')
 	}
 }
 
@@ -40,7 +40,7 @@ render(){
 	return (
 		<div>
 			<ProgressBar memeProgression={m}/>
-			<img src={"./img/quiz/"+memes[t].image}/>
+			<img onClick= {this.onClick} src={"./img/icon/tummenupp.png"} src={"./img/quiz/"+memes[t].image}/>
 			<img onClick= {this.onClick} src={"./img/icon/tummenupp.png"}/>
 			<img onClick= {this.onClick} src={"./img/icon/tummenner.png"}/>
 		</div>
