@@ -1,5 +1,5 @@
 import React from 'react';
-import memes from './meme.json';
+import memes from './quiz.json';
 import ProgressBar from './progressbar';
 
 
