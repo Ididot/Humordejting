@@ -1,5 +1,56 @@
 
-h1 {
-  margin: 10px;
-  color: #FF0000;
+.container_M {
+	padding: 2%;
+	display: grid;
+	grid-template-columns: 24%  24%  24% 24%;
+	grid-template-rows: repeat(1, minmax(80px, max-content));
+	grid-gap: 10px;
+}
+
+.header_M {
+	grid-column: 1 / 5;
+	background-color: #f06292; /*pink*/
+	font-size: 300%;
+}
+.bio_M{
+
+	grid-area: 2 / 1 / 9 / 2;
+	background-color: #7e57c2; /*purple*/
+	font-size: 200%;
+}
+
+
+.gender_M{
+	grid-area: 2 / 2 / 8 / 3;
+	background-color: #64ffda; /*blue*/
+	font-size: 200%;
+}
+
+.name_M{
+	grid-area: 2 / 3 / 7 / 4;
+	background-color: #b2ff59; /*green*/
+	font-size: 200%;
+}
+
+.age_M{
+	grid-area: 2 / 4 / 6 / 5;
+	background-color: #fff59d; /*yellow*/
+	font-size: 200%;
+}
+
+.location_M{
+	grid-area: 10 / 1 / 14 / 5;
+	background-color: #ff8a65; /*orange*/
+	font-size: 200%;
+}
+
+.photo_M{
+	grid-area:  15/ 1 / 16 / 3;
+
+}
+
+img {
+
+    width:100%; 
+    height: auto;
 }
