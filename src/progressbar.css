@@ -1,0 +1,26 @@
+.progress {
+  position: relative;
+  width: 100px;
+  border-radius: 10px;
+  height: 200px;
+  background-color: #eee;
+  color: #68b4d3;
+}
+
+.progressBar {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  width: 90px;
+  border-radius: 3px 3px 6px 6px;
+
+  background-color: #68b4d3;
+
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+
+  transition-duration: 1s;
+}
+
+
