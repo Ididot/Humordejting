@@ -1,65 +1,61 @@
 import React from 'react';
 import memes from './meme.json';
 
-class Quiz extends React.Component { 
-	constructor(){
-		super(); //ger this kontexten av dess komponent, inte parents
-		this.state = {
-			currentImage: 0
-		}
-		this.onClick = this.handleClick.bind(this);
+class Quiz extends React.Component 
+
+{
+
+constructor(props){
+	super(props);
+	this.state = {
+		currentImage: 0
 	}
+	this.onClick = this.handleClick.bind(this);
+}
 
+handleClick(event){
 
-	handleClick(event){
-		
-		if(this.state.currentImage < memes.length)
-		{
-			this.setState({
-					currentImage: this.state.currentImage+1
-			});
-		}
-		else
-		{
-			//this.props.changePage() pekar på function changePage i App.js
-		}
+	if(this.state.currentImage < memes.length-1)
+	{
+		this.setState({
+			currentImage: this.state.currentImage+1
+		});
 	}
+	else
+	{
+		this.props.changePage('profile')
+	}
+}
 
-	render(){ 
+render(){ 
 
-		console.log(memes)
+	console.log(memes)
 
-		let txt = this.props.txt
-		let t = this.state.currentImage
+	let t = this.state.currentImage
 
-		return (
+	return (
+		<div>
+			<img src={"./img/quiz/"+memes[t].image}/>
+			<img onClick= {this.onClick} src={"./img/icon/tummenupp.png"}/>
+			<img onClick= {this.onClick} src={"./img/icon/tummenner.png"}/>
+
+		</div>
+	)
+}
+
+
+/*
+{
+	memes.map((meme) => {
+		return(
 			<div>
-		
-				<img onClick= {this.onClick} src={"./img/quiz/"+memes[t].image}/>
-				<div>{this.state.currentImage}</div>
-				<h1>{txt}</h1>
-
-
-				{
-					memes.map((meme) => {
-						return(
-							<div>
-								<img src={"./img/quiz/"+meme.image} key={meme.memeID} />
-								<div>Bildtext: {meme.bio}</div>
-							</div>
-						);
-					})
-				}
-
+				<img src={"./img/quiz/"+meme.image} key={meme.memeID} />
+				<div>Bildtext: {meme.bio}</div>
 			</div>
-		)
-	}
-
-
-//<button onClick= {this.onClick}>
-//	Hej 
-//	{this.state.currentImage}
-//</button>
+		);
+	})
+}
+*/
 
 
 }
