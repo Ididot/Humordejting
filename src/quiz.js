@@ -40,7 +40,7 @@ render(){
 	return (
 		<div>
 			<ProgressBar memeProgression={m}/>
-			<img onClick= {this.onClick} src={"./img/icon/tummenupp.png"} src={"./img/quiz/"+memes[t].image}/>
+			<img onClick= {this.onClick} src={"./img/quiz/"+memes[t].image}/>
 			<img onClick= {this.onClick} src={"./img/icon/tummenupp.png"}/>
 			<img onClick= {this.onClick} src={"./img/icon/tummenner.png"}/>
 		</div>
