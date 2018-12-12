@@ -1,63 +1,34 @@
-//Profile
 import React, { Component } from 'react';
-import App from './app';
 import profiles_dtb from './profiles_dtb.json';
 import Profile from './profile.js';
+import MatchMini from './matchmini.js';
 import './match.css'
-
-
-
 
 class Match extends React.Component {
 
 
-    constructor(){
-        super(); 
-        this.state = {
-            currentProfile: 0
-        };
-    }
+constructor(){
+    super(); 
+    this.state = {
+    };
+}
 
+render() {
 
-    render() {
+    return (
 
+        <div className='container_M'> 
 
-        console.log(profiles_dtb);
-        let ID = 4; // testgrej
+            <div className='header_M'> Match </div>
 
-		return (
-         
-
-            <div  class='container_M'> 
-
-                 <div class='header_M'> Match </div>
-                <p> ID-nummer: {profiles_dtb[ID].profileID} </p> 
             {
-                profiles_dtb.map((currentProfile) => {
-                    return (
-
-                            <div>
-
-                                <div class='photo_M'>
-                                <img src={"./img/./prof/"+currentProfile.img} key="{currentProfile.profileID}"/>
-                                </div>
-
-                                <div class='name_M'> Name: {currentProfile.name} </div>
-                                <div class='bio_M'> Bio: {currentProfile.bio} </div>
-                                <div class='gender_M'> Gender:{currentProfile.gender} </div>
-                                <div class='age_M'> Age: {currentProfile.age} </div>
-                                <div class='location_M'> Location: {currentProfile.location} </div>
-
-                            </div>
-                    );
-
-                })
+            profiles_dtb.map((currentProfile) => {
+                return <MatchMini key={currentProfile.profileID} profileID={currentProfile.profileID} select={this.props.select}/>})
             }
 
-            </div>
+        </div>
+    );
+}  
 
-        );
-
-    }  
 } export default Match;
 
