@@ -9,27 +9,7 @@ class App extends Component {
   
 //------------------------------------
   constructor(props) 
-  {
-    super(props);
-    this.state = {
-      currentPage: 'welcome'
-    };
-
-    this.changePage = this.changePage.bind(this);
-    this.select = this.select.bind(this);
-  }
-
- changePage(sida)
- {
-   this.setState({
-      currentPage: sida
-    });
- }
-
-  select(profileID) {
-
-    console.log(profileID)
-
+  
     this.setState({
       currentPage: 'profile',
       selected: profileID
