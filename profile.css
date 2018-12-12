@@ -1,0 +1,212 @@
+.container_P {
+
+	display: grid;
+  	padding: 1vw;
+	grid-template-columns: 19%  29%  29% 21%;
+	grid-template-rows: repeat(8, minmax(10vw, max-content));
+	grid-gap: 0.5vw;
+  	background-color: #EBEFF0;
+
+}
+
+/*
+.header_P {
+	grid-column: 1 / 5;
+	background-image: url("head_Q.png");
+	font-size: 300%;
+	text-align: center;
+  	font-weight: bold;
+  	color: #fff;
+  	margin: 10px;
+  	border-radius: 10px;
+}
+*/
+
+.background_P{
+	grid-area:  1 / 1 / 2 / 5;
+
+	height: 450%;
+	
+  	border-radius: 20px;
+	background-image: linear-gradient(#ffa3d0, #11ddff);
+	z-index: 1;
+
+
+/* GRADIENTS
+  Pink-Blue: #ffa3d0, #11ddff
+  darkBlue-Redisch: #204aff, #f40d3e
+  Orange-Yellow: #ff5502, #ffd129
+  Blue-Turquoise: #16ccfa, #0de6b9
+  Lime-Yellow: #0cdfa4, #fde909
+*/
+	
+}
+
+.background2_P{
+	grid-area:  2 / 1 / 8 / 5;
+
+	height: 70%;
+	margin-top: 38vw;
+	
+
+  	border-radius: 6px;
+	background-color: white;
+	z-index: 2;
+	
+}
+
+
+
+
+
+.photo_P{
+	grid-area:  2/ 2 / 3 / 4;
+
+	z-index: 3;
+}
+
+img.photo_P {
+
+    width:100%; 
+    height: auto;
+    border-radius: 50%;
+    outline: 0;
+  	box-shadow: 0 0 0 25px white;
+}
+
+
+.name_P{
+	grid-area: 3 / 2 / 4 / 4;
+
+	font-family: 'Gamja Flower', cursive;
+	font-size: 6vw;
+	text-align: center;
+	color: #424242; /* dark grey*/
+
+	border-radius: 20%;
+	border-bottom: 3px solid grey;
+	padding: 2vw;
+
+	z-index: 2;
+} 
+
+
+
+.bio_P{
+	grid-area: 4 / 2 / 5 / 4;
+
+	font-size: 5vw;
+	color: #424242; /* dark grey*/
+	line-height: 30px;
+
+	border-radius: 1%;
+	border-right: 3px solid grey;
+	padding: 2vw;
+
+	z-index: 2;
+}
+
+
+
+
+.age_P{
+	grid-area: 5 / 4 / 6 / 5;
+
+	font-size: 5vw;
+	color: grey;
+	text-align: center;
+	line-height: 40px;
+	width: 85%;
+	margin-left: 1vw;
+
+	border-radius: 10%;
+	
+
+	z-index: 2;
+	
+}
+
+.gender_P{
+	grid-area: 4 / 4 / 5 / 5;
+
+	font-size: 5vw;
+	color: grey;
+	text-align: center;
+	line-height: 50px;
+	width: 85%;
+	margin-left: 1vw;
+
+	border-radius: 10%;
+	z-index: 2;
+}
+
+
+
+
+.location_P{
+	grid-area: 5 / 2 / 6 / 4;
+
+	font-size: 5vw;
+	color: #424242; /* dark grey*/
+
+	border-radius: 1%;
+	border-right: 3px solid grey;
+	padding: 10px;
+
+	z-index: 2;
+}
+
+
+
+.feather_P{
+	grid-area: 4 / 1 / 5 / 2;
+
+	padding-top: 5vw;
+	padding-left: 2vw;
+
+	z-index: 2;
+}
+
+.globe_P{
+	grid-area: 5 / 1 / 6 / 2;
+
+	padding-left: 2vw;
+
+	z-index: 2;
+
+}
+
+
+.profBar_P{
+	grid-area: 6 / 1 / 7 / 4;
+
+	padding: 2vw;
+
+	z-index: 2;
+
+}
+
+
+
+
+.backWhite_P{
+	grid-area: 1 / 1 / 2 / 2;
+	z-index: 2;
+	padding: 1vw;
+
+}
+
+.backWhite_P:hover {
+  	opacity: 0.5;
+  	cursor: pointer;
+}
+
+.backWhite_P:active {
+  	cursor: pointer;
+  	transform: translateY(4px);
+}
+
+img{
+	width: 70%;
+	height: auto;
+}
