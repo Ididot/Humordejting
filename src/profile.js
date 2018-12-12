@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import profiles_dtb from './profiles_dtb.json';
+import Profbar from './profbar';
 import './profile.css' 
 
 class Profiles extends React.Component {
@@ -7,6 +8,7 @@ class Profiles extends React.Component {
     constructor(){
         super(); 
         this.state = {
+             matchResult: 20
         }
         this.onClick = this.handleClick.bind(this);
     }
@@ -17,25 +19,41 @@ class Profiles extends React.Component {
 
     render() {
 
-    const t = profiles_dtb[this.props.profileID]; 
+    const t = profiles_dtb[this.props.profileID];
+     let m = this.state.matchResult;
 
 		return (
 
             <div className='container_P'> 
 
-                <div className='header_P'> {t.name}'s Profile </div>
+                
+                <div className='background_P'> </div>
+                <div className='background2_P'> </div>
 
                     <div className='photo_P'>
-                        <img  src={"./img/./prof/"+t.img}/>
+                    <img className='photo_P' src={"./img/./prof/"+t.img}/>
+                    </div>
+
+                    <div className='feather_P'>
+                    <img src={"./img/./icon/./feather.png"}/>
+                    </div>
+
+                    <div className='globe_P'>
+                    <img src={"./img/./icon/./globe.png"}/>
                     </div>
 
                     <div className='name_P'> Name: {t.name} </div>
                     <div className='bio_P'> Bio: {t.bio} </div>
-                    <div className='gender_P'> Gender:{t.gender} </div>
-                    <div className='age_P'> Age: {t.age} </div>
+                    <div className='gender_P'> Gender: <br/> {t.gender} </div>
+                    <div className='age_P'> Age: <br/> {t.age} </div>
                     <div className='location_P'> Location: {t.location} </div>
 
-                    <img onClick= {this.onClick} src={"./img/icon/tummenner.png"}/>
+
+                    <div className='profBar_P'>
+                    <Profbar  matchResult={m}/>
+                    </div>
+
+                    <img onClick= {this.onClick} className='backWhite_P' src={"./img/icon/backWhite.png"}/> 
 
             </div> 
         );
