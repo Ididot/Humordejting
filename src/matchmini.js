@@ -27,7 +27,7 @@ render() {
         <div> 
 
             <a>{this.props.profileID}</a>
-            <img onClick={this.selectThis} src={"./img/./prof/"+m.img}/>
+            <img className='photo_M' onClick={this.selectThis} src={"./img/./prof/"+m.img}/>
 
         </div>
     )
@@ -35,4 +35,3 @@ render() {
 }  
 
 } export default MatchMini;
-
