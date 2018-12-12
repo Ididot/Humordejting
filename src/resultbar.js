@@ -19,7 +19,7 @@ render(){
 		return (
 			<div className="result" >
 		        <div className="resultBar" style={c} >
-		         </div>
+		        </div>
 	        </div>
 		)
 	}
