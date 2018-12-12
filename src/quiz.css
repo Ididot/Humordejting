@@ -3,7 +3,7 @@
 	padding: 2%;
 	display: grid;
 	grid-template-columns: 9%  32%  32% 23%;;
-	grid-template-rows: repeat(8, minmax(80px, max-content));
+	grid-template-rows: repeat(6, minmax(80px, max-content));
 	grid-gap: 10px;
 	background-color: #EBEFF0;
 }
