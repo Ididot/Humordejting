@@ -1,56 +1,75 @@
 
 .container_M {
-	padding: 2%;
+
 	display: grid;
-	grid-template-columns: 24%  24%  24% 24%;
-	grid-template-rows: repeat(1, minmax(80px, max-content));
-	grid-gap: 10px;
+  padding: 3vw;
+	grid-template-columns: 20vw 20vw 20vw 20vw;
+	grid-template-rows: repeat(10, minmax(10vw, max-content));
+	grid-gap: 4vw;
+  background-color: #EBEFF0;
 }
+
+
 
 .header_M {
 	grid-column: 1 / 5;
-	background-color: #f06292; /*pink*/
-	font-size: 300%;
-}
-.bio_M{
 
-	grid-area: 2 / 1 / 9 / 2;
-	background-color: #7e57c2; /*purple*/
-	font-size: 200%;
-}
+  width:93vw; 
+  height: 15vw;
+  border-bottom: 5px solid grey;
+  border-radius: 10px;
 
+  font-size: 10vw;
+  margin: auto; 
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  color: #fff;
 
-.gender_M{
-	grid-area: 2 / 2 / 8 / 3;
-	background-color: #64ffda; /*blue*/
-	font-size: 200%;
-}
+  background-image: linear-gradient(#0cdfa4, #fde909);
 
-.name_M{
-	grid-area: 2 / 3 / 7 / 4;
-	background-color: #b2ff59; /*green*/
-	font-size: 200%;
-}
+  /* GRADIENTS
 
-.age_M{
-	grid-area: 2 / 4 / 6 / 5;
-	background-color: #fff59d; /*yellow*/
-	font-size: 200%;
+  Pink-Blue: #ffa3d0, #11ddff
+  darkBlue-Redisch: #204aff, #f40d3e
+  Orange-Yellow: #ff5502, #ffd129
+  Blue-Turquoise: #16ccfa, #0de6b9
+  Lime-Yellow: #0cdfa4, #fde909
+*/
 }
 
-.location_M{
-	grid-area: 10 / 1 / 14 / 5;
-	background-color: #ff8a65; /*orange*/
-	font-size: 200%;
+.photo_M {
+ 
 }
 
-.photo_M{
-	grid-area:  15/ 1 / 16 / 3;
 
+.prog_M{
+  width:100%;
+
+  background-color: white;
+  border-radius: 30%;
+  box-shadow: 0 0 0 3px white;
 }
 
-img {
 
-    width:100%; 
+img.photo_M {
+
+    
+    width:90%; 
     height: auto;
+    border-radius: 50%;
+  	box-shadow: 0 0 0 10px white;
+  	margin: 10px;
+
+}
+
+
+img.photo_M:hover {
+  	opacity: 0.5;
+  	cursor: pointer;
+}
+
+img.photo_M:active {
+  	cursor: pointer;
+  	transform: translateY(4px);
 }
