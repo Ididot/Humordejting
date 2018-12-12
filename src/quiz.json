@@ -8,7 +8,7 @@
   {
     "memeID": 1,
     "bio": "Vem fan är Jesus?",
-    "image": "jesus2.JPG"
+    "image": "jesus.JPG"
   },
 
   {
@@ -56,7 +56,7 @@
   {
     "memeID": 9,
     "bio": "New phone who dis",
-    "image": "jesus1.jpg"
+    "image": "jesus.jpg"
   },
   
   {
@@ -141,38 +141,5 @@
     "memeID": 23,
     "bio": "*heavy breathing intensifies*",
     "image": "heavybreathing.jpg"
-  },
-
-   {
-    "memeID": 24,
-    "bio": "*stare*",
-    "image": "mf.jpg"
-  },
-
-  {
-    "memeID": 25,
-    "bio": "*pika*",
-    "image": "pika.jpg"
-  },
-
-  {
-    "memeID": 26,
-    "bio": "*glasses*",
-    "image": "glasses.gif"
-  },
-
-  {
-    "memeID": 27,
-    "bio": "*kitty*",
-    "image": "kitty.gif"
-  },
-
- 
-  {
-    "memeID": 28,
-    "bio": "*nonose*",
-    "image": "nonose.gif"
   }
-
-
  ]

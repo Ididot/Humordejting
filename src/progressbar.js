@@ -1,20 +1,23 @@
 import React from 'react';
 import './progressbar.css';
 
-const barWidth = 10;
+const barHeight = 200;
+const maxTemperature = 30;
+const minTemperature = -10;
 
-const pixelsPerDegree = 16;
+const temperatureSpan = maxTemperature - minTemperature;
+const pixelsPerDegree = barHeight / temperatureSpan;
 
 class ProgressBar extends React.Component {
 
 render(){ 
 
 	const memeProgression = this.props.memeProgression;
-    let barWidth = memeProgression * pixelsPerDegree;
-   	const c = {width: barWidth};
+    let barHeight = (memeProgression - minTemperature) * pixelsPerDegree;
+   	const c = {height: barHeight};
 
-    barWidth = Math.min(barWidth, barWidth);
-    barWidth = Math.max(barWidth);
+    barHeight = Math.min(barHeight, barHeight - 10);
+    barHeight = Math.max(barHeight, 20);
 
 	return (
 		<div className="progress">

@@ -1,36 +1,26 @@
 .progress {
   position: relative;
-  height: 8vw;
-  border-radius: 30vw;
-  width: 76vw;
+  width: 100px;
+  border-radius: 10px;
+  height: 200px;
+  background-color: #eee;
   color: #68b4d3;
-  background-color: transparent;
-  z-index: 2;
-  border: 0.7vw solid grey;
 }
 
 .progressBar {
   position: absolute;
-  height: 6vw;
-  border-radius: 30vw;
+  bottom: 5px;
+  left: 5px;
+  width: 90px;
+  border-radius: 3px 3px 6px 6px;
 
-  background-image: linear-gradient( right, #204aff, #f40d3e);
+  background-color: #68b4d3;
 
-  /* GRADIENTS
-
-  Pink-Blue: #ffa3d0, #11ddff
-  darkBlue-Redisch: #204aff, #f40d3e
-  Orange-Yellow: #ff5502, #ffd129
-  Blue-Turquoise: #16ccfa, #0de6b9
-  Lime-Yellow: #0cdfa4, #fde909
-*/
-
-  line-height: 30px;
-  text-align: center; 
+  text-align: center;
   font-weight: bold;
   color: #fff;
 
   transition-duration: 1s;
-  padding: 1vw;
 }
+
 

@@ -1,7 +1,6 @@
 import React from 'react';
 import memes from './quiz.json';
 import ProgressBar from './progressbar';
-import './quiz.css';
 
 
 class Quiz extends React.Component {
@@ -27,7 +26,7 @@ handleClick(event){
 	}
 	else
 	{
-		this.props.changePage('profile')
+		this.props.changePage('match')
 	}
 }
 
@@ -39,19 +38,11 @@ render(){
 	let m = this.state.memeProgression
 
 	return (
-
-		<div class='container_Q'>
-
-			<div class='header_Q'> Quiz </div>
-			<ProgressBar class='prog_Q' memeProgression={m}/>
-
-			<div class='meme_Q'>
-			<img class='memePic_Q' src={"./img/quiz/"+memes[t].image}/>
-			</div>
-
-			<img class='yes_Q' onClick= {this.onClick} src={"./img/icon/tummenupp.png"}/>
-			<img class='nope_Q' onClick= {this.onClick} src={"./img/icon/tummenner.png"}/>
-			<img class='back_Q' src={"./img/icon/back.png"}/> 
+		<div>
+			<ProgressBar memeProgression={m}/>
+			<img onClick= {this.onClick} src={"./img/quiz/"+memes[t].image}/>
+			<img onClick= {this.onClick} src={"./img/icon/tummenupp.png"}/>
+			<img onClick= {this.onClick} src={"./img/icon/tummenner.png"}/>
 		</div>
 	)
 }
