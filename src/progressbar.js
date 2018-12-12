@@ -25,7 +25,6 @@ render(){
 	)
 }
 
-
 }
 
 export default ProgressBar
