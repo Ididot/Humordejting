@@ -40,6 +40,37 @@ class App extends Component {
         return( <Profile changePage={this.changePage} profileID={this.state.selected}/>);
       }
             
+               '
+               
+                constructor(props) 
+  
+    this.setState({
+      currentPage: 'profile',
+      selected: profileID
+    })
+  }
+
+  render() {
+
+
+    
+      if (this.state.currentPage == 'welcome') 
+      {
+        return( <Welcome changePage={this.changePage}/>);
+      }
+
+      else if (this.state.currentPage == 'quiz')
+      {
+        return (<Quiz changePage={this.changePage}/>);
+      }
+
+      else if (this.state.currentPage == 'match')
+      {
+        return (<Match changePage={this.changePage} select={this.select}/>);
+      }
+
+      else if(this.state.currentPage == 'profile')
+      {
     }
 }
   export default App;
