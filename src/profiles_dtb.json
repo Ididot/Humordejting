@@ -1,0 +1,52 @@
+[
+  {
+    "profileID": 0,
+    "name": " Khaleesi ",
+    "bio": " I <3 Imagine dragons ",
+    "gender": "Female",
+    "age": "21",
+    "location": "Västerås",
+    "img":"danni.JPG"
+  },
+
+  {
+    "profileID": 1,
+    "name": "Ramsay Bolton",
+    "bio": " I enjoy long walks in the forest with my doggies",
+    "gender": "Male",
+    "age": "25",
+    "location": "Västerås",
+    "img":"ram.JPG"
+  },
+
+  {
+    "profileID": 2,
+    "name": "Jon Sno' ",
+    "bio": " I kno nottin' ",
+    "gender": "Male",
+    "age": "22",
+    "location": "Västerås",
+    "img":"jon.JPG"
+  },
+
+ {
+    "profileID": 3,
+    "name": "Brienne of Tarth'",
+    "bio": " Fite me ",
+    "gender": "Female",
+    "age": "30",
+    "location": "Västerås",
+    "img":"brien.JPG"
+  },
+
+ {
+    "profileID": 4,
+    "name": " Tormund ",
+    "bio": " Looking for Brienne ",
+    "gender": "Male",
+    "age": "40",
+    "location": " Norra Västerås",
+    "img":"tor.JPG"
+  }
+
+]

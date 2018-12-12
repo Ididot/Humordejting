@@ -1,0 +1,34 @@
+.bar {
+  position: relative;
+  height: 8vw;
+  border-radius: 30vw;
+  width: 90vw;
+  color: #68b4d3;
+  background-color: transparent;
+  z-index: 2;
+  border: 0.7vw solid grey;
+
+
+}
+
+.profbar {
+  position: absolute;
+  height: 8vw;
+  border-radius: 30vw;
+
+  background-image: linear-gradient(right, #ffa3d0, #11ddff);
+
+  /* GRADIENTS
+
+  Pink-Blue: #ffa3d0, #11ddff
+  darkBlue-Redisch: #204aff, #f40d3e
+  Orange-Yellow: #ff5502, #ffd129
+  Blue-Turquoise: #16ccfa, #0de6b9
+  Lime-Yellow: #0cdfa4, #fde909
+  ;
+*/
+
+  transition-duration: 1s;
+  z-index: 1;
+
+}
