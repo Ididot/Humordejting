@@ -18,7 +18,7 @@ constructor(props){
 
 handleClick(event){
 
-	if(this.state.currentImage < memes.length-1)
+	if(this.state.currentImage < memes.length-20)
 	{
 		this.setState({
 			currentImage: this.state.currentImage+1,
@@ -27,7 +27,7 @@ handleClick(event){
 	}
 	else
 	{
-		this.props.changePage('profile')
+		this.props.changePage('match')
 	}
 }
 
@@ -40,18 +40,18 @@ render(){
 
 	return (
 
-		<div class='container_Q'>
+		<div className='container_Q'>
 
-			<div class='header_Q'> Quiz </div>
-			<ProgressBar class='prog_Q' memeProgression={m}/>
+			<div className='header_Q'> Quiz </div>
+			<ProgressBar className='prog_Q' memeProgression={m}/>
 
-			<div class='meme_Q'>
-			<img class='memePic_Q' src={"./img/quiz/"+memes[t].image}/>
+			<div className='meme_Q'>
+			<img className='memePic_Q' src={"./img/quiz/"+memes[t].image}/>
 			</div>
 
-			<img class='yes_Q' onClick= {this.onClick} src={"./img/icon/tummenupp.png"}/>
-			<img class='nope_Q' onClick= {this.onClick} src={"./img/icon/tummenner.png"}/>
-			<img class='back_Q' src={"./img/icon/back.png"}/> 
+			<img onClick= {this.onClick} className='yes_Q' src={"./img/icon/tummenupp.png"}/>
+			<img onClick= {this.onClick} className='nope_Q' src={"./img/icon/tummenner.png"}/>
+			<img onClick= {this.onClick} className='back_Q' src={"./img/icon/back.png"}/> 
 		</div>
 	)
 }
