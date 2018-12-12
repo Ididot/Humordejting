@@ -1,4 +1,3 @@
-
 .container_M {
 
 	display: grid;
@@ -39,6 +38,7 @@
 }
 
 .photo_M {
+
  
 }
 
@@ -52,7 +52,8 @@
 }
 
 
-img.photo_M {
+
+img.photo_M { /* kopplar med MatchMini.js */
 
     
     width:90%; 
@@ -62,6 +63,7 @@ img.photo_M {
   	margin: 10px;
 
 }
+
 
 
 img.photo_M:hover {
