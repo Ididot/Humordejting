@@ -4,6 +4,12 @@ import Match from './match';
 import Profile from './profile';
 import Quiz from './quiz';
 import Welcome from './welcome';
+import React, { Component } from 'react';
+import './app.css';
+import Match from './match';
+import Profile from './profile';
+import Quiz from './quiz';
+import Welcome from './welcome';
 
 class App extends Component {
   
