@@ -9,19 +9,20 @@ class Quiz extends React.Component {
 constructor(props){
 	super(props);
 	this.state = {
-		currentImage: 0,
 		memeProgression: 0
 	}
-
-	this.onClick = this.handleClick.bind(this);
+	this.upClick = this.upClick.bind(this);
+	this.downClick = this.downClick.bind(this);
+	this.backClick = this.backClick.bind(this);
 }
 
-handleClick(event){
+upClick(){
 
-	if(this.state.currentImage < memes.length-20)
+	//Denna funktionen ska spara detta värde
+
+	if(this.state.memeProgression < memes.length-20)
 	{
 		this.setState({
-			currentImage: this.state.currentImage+1,
 			memeProgression: this.state.memeProgression+1
 		});
 	}
@@ -31,31 +32,70 @@ handleClick(event){
 	}
 }
 
+downClick(){
+
+	if(this.state.memeProgression < memes.length-20)
+	{
+		this.setState({
+			memeProgression: this.state.memeProgression+1
+		});
+	}
+	else
+	{
+		this.props.changePage('match')
+	}
+}
+
+backClick(){
+
+	this.setState({
+		memeProgression: this.state.memeProgression-1
+	});
+}
+
 render(){ 
 
 	console.log(memes)
 
-	let t = this.state.currentImage
 	let m = this.state.memeProgression
 
-	return (
+	if(this.state.memeProgression == 0){
+		return (
+			<div className='container_Q'>
 
-		<div className='container_Q'>
+				<div className='header_Q'> Quiz </div>
+				<ProgressBar className='prog_Q' memeProgression={m}/>
 
-			<div className='header_Q'> Quiz </div>
-			<ProgressBar className='prog_Q' memeProgression={m}/>
+				<div className='meme_Q'>
+					<img className='memePic_Q' src={"./img/quiz/"+memes[m].image}/>
+				</div>
 
-			<div className='meme_Q'>
-			<img className='memePic_Q' src={"./img/quiz/"+memes[t].image}/>
+				<img onClick= {this.upClick} className='yes_Q' src={"./img/icon/tummenupp.png"}/>
+				<img onClick= {this.downClick} className='nope_Q' src={"./img/icon/tummenner.png"}/>
+
 			</div>
+		)
+	}
+	else
+	{
+		return (
+			<div className='container_Q'>
 
-			<img onClick= {this.onClick} className='yes_Q' src={"./img/icon/tummenupp.png"}/>
-			<img onClick= {this.onClick} className='nope_Q' src={"./img/icon/tummenner.png"}/>
-			<img onClick= {this.onClick} className='back_Q' src={"./img/icon/back.png"}/> 
-		</div>
-	)
+				<div className='header_Q'> Quiz </div>
+				<ProgressBar className='prog_Q' memeProgression={m}/>
+
+				<div className='meme_Q'>
+					<img className='memePic_Q' src={"./img/quiz/"+memes[m].image}/>
+				</div>
+
+				<img onClick= {this.upClick} className='yes_Q' src={"./img/icon/tummenupp.png"}/>
+				<img onClick= {this.downClick} className='nope_Q' src={"./img/icon/tummenner.png"}/>
+				<img onClick= {this.backClick} className='back_Q' src={"./img/icon/back.png"}/> 
+
+			</div>
+		)
+	}
 }
-
 
 /*
 {
@@ -73,4 +113,4 @@ render(){
 
 }
 
-export default Quiz
+export default Quiz;
