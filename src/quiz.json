@@ -1,8 +1,8 @@
 [
   {
-    "memeID": 0,
-    "bio": "Han slänger bort",
-    "image": "throw.GIF"
+    "memeID": 25,
+    "bio": "*pika*",
+    "image": "pika.jpg"
   },
 
   {
@@ -147,32 +147,6 @@
     "memeID": 24,
     "bio": "*stare*",
     "image": "mf.jpg"
-  },
-
-  {
-    "memeID": 25,
-    "bio": "*pika*",
-    "image": "pika.jpg"
-  },
-
-  {
-    "memeID": 26,
-    "bio": "*glasses*",
-    "image": "glasses.gif"
-  },
-
-  {
-    "memeID": 27,
-    "bio": "*kitty*",
-    "image": "kitty.gif"
-  },
-
- 
-  {
-    "memeID": 28,
-    "bio": "*nonose*",
-    "image": "nonose.gif"
   }
-
 
  ]
