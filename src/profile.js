@@ -20,7 +20,7 @@ class Profiles extends React.Component {
     render() {
 
     const t = profiles_dtb[this.props.profileID];
-     let m = this.state.matchResult;
+    let m = this.state.matchResult;
 
 		return (
 
@@ -31,7 +31,7 @@ class Profiles extends React.Component {
                 <div className='background2_P'> </div>
 
                     <div className='photo_P'>
-                    <img className='photo_P' src={"./img/./prof/"+t.img}/>
+                    <img className='photo_P' src={"./img/./prof/" + t.img}/>
                     </div>
 
                     <div className='feather_P'>

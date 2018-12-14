@@ -19,7 +19,6 @@ class Match extends React.Component {
         };
     }
 
-
     render() {
 
 
@@ -35,7 +34,6 @@ class Match extends React.Component {
                 {
                 profiles_dtb.map((currentProfile) => {
 
-                    
                     return (
 
                             <div>

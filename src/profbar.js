@@ -9,19 +9,19 @@ class ProfBar extends React.Component {
 
 render(){ 
 
-	const matchResult = this.props.matchResult;
+    const matchResult = this.props.matchResult;
     let barWidth = matchResult * steps * 2;
-   	const c = {width: barWidth};
+    const c = {width: barWidth};
 
     barWidth = Math.min(barWidth, barWidth);
     barWidth = Math.max(barWidth);
 
-		return (
-			<div className="bar" >
-		        <div className="profbar" style={c} >
-		         </div>
-	        </div>
-		)
-	}
+        return (
+            <div className="bar" >
+                <div className="profbar" style={c} >
+                 </div>
+            </div>
+        )
+    }
 }
 export default ProfBar
