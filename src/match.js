@@ -40,7 +40,7 @@ class Match extends React.Component {
 
                  <div className='header_M'> Matches </div>
                  <img className='back_M' />
-                 <img onClick= {this.backClick} className='back_M' src={"./img/icon/redo.png"}/> 
+                 <img onClick= {this.backClick} className='back_M' src={"./img/icon/back.png"}/> 
             
                 {
                 profiles_dtb.map((currentProfile) => {
