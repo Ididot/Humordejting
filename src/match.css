@@ -5,7 +5,7 @@
 	grid-template-columns: 20vw 20vw 20vw 20vw;
 	grid-template-rows: repeat(10, minmax(10vw, max-content));
 	grid-gap: 4vw;
-  background-color: #EBEFF0;
+  background-color: #F8EDE1;
 }
 
 
@@ -13,19 +13,22 @@
 .header_M {
 	grid-column: 1 / 5;
 
-  width:93vw; 
+  width:95%; 
   height: 15vw;
-  border-bottom: 5px solid grey;
-  border-radius: 10px;
+
+  border-radius: 0.9vw;
 
   font-size: 10vw;
   margin: auto; 
   text-align: center;
-  vertical-align: middle;
+  vertical-align: center;
+  font-family: "Arial Black", Gadget, sans-serif;
   font-weight: bold;
-  color: #fff;
+  color: #F8EDE1;
+  background-color: #EC4A3B;
+  /*background-image: linear-gradient(#F566E6, #F8EDE1);*/
 
-  background-image: linear-gradient(#0cdfa4, #fde909);
+  /*background-image: linear-gradient(#EC4A3B, #8D362C);*/
 
   /* GRADIENTS
 
@@ -42,6 +45,9 @@
  
 }
 
+.name_M {
+	text-align: center;
+}
 
 .prog_M{
   width:100%;
@@ -58,9 +64,9 @@ img.photo_M { /* kopplar med MatchMini.js */
     
     width:90%; 
     height: auto;
-    border-radius: 50%;
-  	box-shadow: 0 0 0 10px white;
   	margin: 10px;
+    box-shadow: 0 0 0 4px #262626;
+    border-radius: 50% 1vw;
 
 }
 
@@ -75,3 +81,4 @@ img.photo_M:active {
   	cursor: pointer;
   	transform: translateY(4px);
 }
+

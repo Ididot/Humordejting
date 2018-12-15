@@ -19,7 +19,6 @@ class Match extends React.Component {
         };
     }
 
-
     render() {
 
 
@@ -30,12 +29,11 @@ class Match extends React.Component {
          
             <div  className='container_M'> 
 
-                 <div className='header_M'> Match </div>
+                 <div className='header_M'> Matchlist </div>
             
                 {
                 profiles_dtb.map((currentProfile) => {
 
-                    
                     return (
 
                             <div>
