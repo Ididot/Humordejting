@@ -42,14 +42,22 @@ class Profiles extends React.Component {
                     <img src={"./img/./icon/./globe.png"}/>
                     </div>
 
-                    <div className='name_P'> Name: {t.name} </div>
+                    <div className='genders_P'>
+                    <img src={"./img/./icon/./genders.png"}/>
+                    </div>
+
+                    <div className='ageIcon_P'>
+                    <img src={"./img/./icon/./age.png"}/>
+                    </div>
+
+                    <div className='name_P'> {t.name} </div>
                     <div className='bio_P'> Bio: {t.bio} </div>
-                    <div className='gender_P'> Gender: <br/> {t.gender} </div>
-                    <div className='age_P'> Age: <br/> {t.age} </div>
+                    <div className='gender_P'> Gender: {t.gender} </div>
+                    <div className='age_P'> Age: {t.age} </div>
                     <div className='location_P'> Location: {t.location} </div>
 
-
                     <div className='profBar_P'>
+                    <p className='yourMatch'>Your match:</p>
                     <Profbar  matchResult={m}/>
                     </div>
 

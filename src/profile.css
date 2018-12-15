@@ -2,11 +2,11 @@
 
 	display: grid;
   	padding: 1vw;
-	grid-template-columns: 19%  29%  29% 21%;
-	grid-template-rows: repeat(8, minmax(10vw, max-content));
+	grid-template-areas: auto;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(6, minmax(10vw, max-content));
 	grid-gap: 0.5vw;
-  	background-color: #EBEFF0;
-
+  	background-color: transparent;
 }
 
 /*
@@ -23,9 +23,9 @@
 */
 
 .background_P{
-	grid-area:  1 / 1 / 2 / 5;
+	grid-area:  1 / 1 / 3 / 7;
 
-	height: 450%;
+	height: 190%; /*290% täcker perfekt hela fönstret*/
 	
   	border-radius: 20px;
 	background-image: linear-gradient(#ffa3d0, #11ddff);
@@ -43,154 +43,150 @@
 }
 
 .background2_P{
-	grid-area:  2 / 1 / 8 / 5;
-
-	height: 70%;
-	margin-top: 38vw;
-	
-
-  	border-radius: 6px;
-	background-color: white;
+	grid-area:  5 / 1 / 7 / 7;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	margin-top: 5vw;
+	background-color: pink;
 	z-index: 2;
-	
 }
 
-
-
-
-
 .photo_P{
-	grid-area:  2/ 2 / 3 / 4;
+	grid-area:  1 / 3 / 2 / 5;
+	margin-top: 2vw;
 
 	z-index: 3;
 }
 
 img.photo_P {
 
-    width:100%; 
+    width: 100%;
     height: auto;
     border-radius: 50%;
-    outline: 0;
-  	box-shadow: 0 0 0 25px white;
+  	box-shadow: 0 0 0 10px white;
 }
 
 
 .name_P{
-	grid-area: 3 / 2 / 4 / 4;
+	grid-area: 2 / 2 / 3 / 6;
 
 	font-family: 'Gamja Flower', cursive;
 	font-size: 6vw;
 	text-align: center;
 	color: #424242; /* dark grey*/
+	background-color: transparent;
 
-	border-radius: 20%;
-	border-bottom: 3px solid grey;
+	border-radius: 0%;
 	padding: 2vw;
 
 	z-index: 2;
 } 
 
 
-
 .bio_P{
-	grid-area: 4 / 2 / 5 / 4;
-
+	grid-area: 5 / 1 / 6 / 7;
 	font-size: 5vw;
 	color: #424242; /* dark grey*/
 	line-height: 30px;
+	font-family: 'Times New Roman';
+	padding: 12.5vw 1vw 0 12vw;
+	margin-right: 4vw;
+	text-decoration: underline;
+	text-align: justify;
+	z-index: 2;
+}
 
-	border-radius: 1%;
-	border-right: 3px solid grey;
-	padding: 2vw;
+.feather_P{
+	grid-area: 5 / 1 / 6 / 7;
+	width: 10%;
+	margin-top: 12.2vw;
+	margin-left: 2.5vw;
 
 	z-index: 2;
 }
 
-
-
-
 .age_P{
-	grid-area: 5 / 4 / 6 / 5;
-
-	font-size: 5vw;
-	color: grey;
+	grid-area: 3 / 3 / 4 / 5;
+	margin-top: 2vw;
+	margin-left: 4vw;
+	font-size: 3vw;
+	color: #424242;
 	text-align: center;
-	line-height: 40px;
 	width: 85%;
-	margin-left: 1vw;
+	z-index: 2;
+}
 
-	border-radius: 10%;
-	
+.ageIcon_P{
+	grid-area: 3 / 3 / 4 / 5;
+	width: 22%;
+	margin-top: 1vw;
+	margin-left: 7vw;
 
 	z-index: 2;
-	
 }
 
 .gender_P{
-	grid-area: 4 / 4 / 5 / 5;
-
-	font-size: 5vw;
-	color: grey;
+	grid-area: 3 / 1 / 4 / 3;
+	margin-top: 2vw;
+	font-size: 3vw;
+	color: #424242;
 	text-align: center;
-	line-height: 50px;
 	width: 85%;
-	margin-left: 1vw;
-
-	border-radius: 10%;
+	margin-left: 4vw;
 	z-index: 2;
 }
 
+.genders_P{
+	grid-area: 3 / 1 / 4 / 3;
+	width: 25%;
+	margin-top: 1vw;
+	margin-left: 1vw;
 
+	z-index: 2;
+}
 
 
 .location_P{
-	grid-area: 5 / 2 / 6 / 4;
-
-	font-size: 5vw;
-	color: #424242; /* dark grey*/
-
-	border-radius: 1%;
-	border-right: 3px solid grey;
-	padding: 10px;
-
-	z-index: 2;
-}
-
-
-
-.feather_P{
-	grid-area: 4 / 1 / 5 / 2;
-
-	padding-top: 5vw;
-	padding-left: 2vw;
-
+	grid-area: 3 / 5 / 4 / 7;
+	margin-top: 2vw;
+	font-size: 3vw;
+	color: #424242;
+	text-align: center;
+	width: 85%;
+	margin-left: 4.5vw;
 	z-index: 2;
 }
 
 .globe_P{
-	grid-area: 5 / 1 / 6 / 2;
-
-	padding-left: 2vw;
+	grid-area: 3 / 5 / 4 / 7;
+	width: 25%;
+	margin-top: 1vw;
+	margin-left: -1vw;
 
 	z-index: 2;
-
 }
-
 
 .profBar_P{
-	grid-area: 6 / 1 / 7 / 4;
+	grid-area: 4 / 1 / 5 / 7;
 
 	padding: 2vw;
+	margin-top: -8vw;
 
 	z-index: 2;
 
 }
 
+.yourMatch {
+	text-align: center;
 
+	font-family: 'Gamja Flower', cursive;
+	font-size: 5vw;
+}
 
 
 .backWhite_P{
 	grid-area: 1 / 1 / 2 / 2;
+	width: 50%;
 	z-index: 2;
 	padding: 1vw;
 
