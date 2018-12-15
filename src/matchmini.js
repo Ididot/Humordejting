@@ -22,12 +22,13 @@ selectThis(){
 render() {
 
     let m = profiles_dtb[this.props.profileID]
+	const t = profiles_dtb[this.props.profileID];
 
     return(
         <div> 
 
-            <a>{this.props.profileID}</a>
             <img className='photo_M' onClick={this.selectThis} src={"./img/./prof/"+m.img}/>
+			<div className='name_M'> {t.name} </div>
 
         </div>
     )
