@@ -22,7 +22,7 @@
   margin: auto; 
   text-align: center;
   vertical-align: center;
-  font-family: "Arial Black", Gadget, sans-serif;
+  font-family: "Barlow", regular, ;
   font-weight: bold;
   color: #F8EDE1;
   background-color: #EC4A3B;
@@ -80,4 +80,28 @@ img.photo_M:hover {
 img.photo_M:active {
   	cursor: pointer;
   	transform: translateY(4px);
+}
+
+.back_M{
+  grid-area: 2 / 1 / 3 / 2;
+
+}
+.back_M:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transition-duration: 1s;
+    transition-duration: 0.5s;
+}
+
+.back_M:active {
+    cursor: pointer;
+    transform: translateY(4px);
+    transition-duration: 0.5s;
+}
+
+img.back_M {
+padding-top: 1vw;
+    width:110%; 
+    height: auto;
+    margin-left: 2vw;
 }
