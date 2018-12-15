@@ -1,20 +1,51 @@
 .progress {
   position: relative;
   height: 8vw;
-  border-radius: 30vw;
-  width: 76vw;
+  border-radius: 0.9vw;
+  width: 69vw;
   color: #68b4d3;
   background-color: transparent;
   z-index: 2;
-  border: 0.7vw solid grey;
+  border: 0.7vw solid #262626;
+  margin-left: 3vw;
 }
 
 .progressBar {
   position: absolute;
   height: 6vw;
-  border-radius: 30vw;
+  border-radius: 0.9vw;
+  padding-left: 2vw;
 
-  background-image: linear-gradient( right, #204aff, #f40d3e);
+  line-height: 30px;
+  text-align: center; 
+  font-weight: bold;
+  font-family: "Barlow", regular;
+  font-size: 6vw;
+
+  color: #F8EDE1;
+  text-shadow: 2px 2px #262626;
+
+  transition-duration: 1s;
+  padding: 1vw;
+
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+
+
+  background-color: #3ed597;
+  animation-name: colorAnimation;
+  animation-duration: 3s;
+}
+
+
+@keyframes colorAnimation {
+  0%   {background-color: #3ed597;}
+  25%  {background-color: #ca9e26;}
+  50%  {background-color: #f48241;}
+  75% {background-color: #d94781;}
+  100% {background-color: #8d5294;}
+}
 
   /* GRADIENTS
 
@@ -24,12 +55,3 @@
   Blue-Turquoise: #16ccfa, #0de6b9
   Lime-Yellow: #0cdfa4, #fde909
 */
-
-  line-height: 30px;
-  text-align: center; 
-  font-weight: bold;
-  color: #fff;
-
-  transition-duration: 1s;
-  padding: 1vw;
-}
