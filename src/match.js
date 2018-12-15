@@ -4,8 +4,8 @@ import profiles_dtb from './profiles_dtb.json';
 import Profile from './profile.js';
 import MatchMini from './matchmini.js';
 import ResultBar from './resultbar';
-import './match.css';
-import './quiz.css';
+import './match.css'
+
 
 
 
@@ -16,13 +16,17 @@ class Match extends React.Component {
         super(); 
         this.state = {
             matchResult: 6 //NN - kopplar med resultbar (~line 49)
-        };
+        }
+
         this.backClick = this.backClick.bind(this);
     }
 
     backClick(){
-        this.props.changePage('quiz')
-    }
+
+        this.props.changePage('welcome')
+}
+
+
 
     render() {
 
@@ -34,9 +38,9 @@ class Match extends React.Component {
          
             <div  className='container_M'> 
 
-		<img onClick= {this.backClick} className='back_Q' src={"./img/icon/back.png"}/> 
-
-                 <div className='header_M'> Match </div>
+                 <div className='header_M'> Matches </div>
+                 <img className='back_M' />
+                 <img onClick= {this.backClick} className='back_M' src={"./img/icon/back.png"}/> 
             
                 {
                 profiles_dtb.map((currentProfile) => {
@@ -48,7 +52,7 @@ class Match extends React.Component {
                                 <div className='photo_M'>
                                 <MatchMini key={currentProfile.profileID} profileID={currentProfile.profileID} select={this.props.select}/>
                                 </div>
-
+                                
                                 <div  className='prog_M'>
                                 <ResultBar matchResult={m--}/>
                                 </div>
@@ -64,3 +68,4 @@ class Match extends React.Component {
 
     }  
 } export default Match;
+
