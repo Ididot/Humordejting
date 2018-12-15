@@ -8,8 +8,6 @@
   background-color: #F8EDE1;
 }
 
-
-
 .header_M {
 	grid-column: 1 / 5;
 
@@ -70,8 +68,6 @@ img.photo_M { /* kopplar med MatchMini.js */
 
 }
 
-
-
 img.photo_M:hover {
   	opacity: 0.5;
   	cursor: pointer;
@@ -100,8 +96,9 @@ img.photo_M:active {
 }
 
 img.back_M {
-padding-top: 1vw;
-    width:110%; 
+   padding-top: 1vw;
+    max-width:100%;
+    max-height:100%;
     height: auto;
     margin-left: 2vw;
 }
