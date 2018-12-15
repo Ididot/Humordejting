@@ -4,8 +4,8 @@ import profiles_dtb from './profiles_dtb.json';
 import Profile from './profile.js';
 import MatchMini from './matchmini.js';
 import ResultBar from './resultbar';
-import './match.css'
-
+import './match.css';
+import './quiz.css';
 
 
 
@@ -17,6 +17,11 @@ class Match extends React.Component {
         this.state = {
             matchResult: 6 //NN - kopplar med resultbar (~line 49)
         };
+        this.backClick = this.backClick.bind(this);
+    }
+
+    backClick(){
+        this.props.changePage('quiz')
     }
 
     render() {
@@ -28,6 +33,8 @@ class Match extends React.Component {
 		return (
          
             <div  className='container_M'> 
+
+		<img onClick= {this.backClick} className='back_Q' src={"./img/icon/back.png"}/> 
 
                  <div className='header_M'> Match </div>
             
