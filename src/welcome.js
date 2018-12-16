@@ -17,9 +17,9 @@ handleClick(event){
 render(){ 
 
 	return (
-		<div>
-		<div>Hej!! Du ska nu göra ett quiz! Fattaru??? Kör!</div>
-			<img onClick= {this.onClick} src={"./img/icon/tummenupp.png"}/>
+		<div className="welcome_bg">
+		<div className="welcome_txt">Welcome to Happ! You will be doing a quiz</div>
+			<img onClick= {this.onClick} className="arrow" src={"./img/icon/tummenupp.png"}/>
 		</div>
 	)
 }
