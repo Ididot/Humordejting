@@ -23,7 +23,7 @@ class Match extends React.Component {
 
     backClick(){
 
-        this.props.changePage('welcome')
+        this.props.changePage('quiz')
 }
 
 
@@ -39,9 +39,10 @@ class Match extends React.Component {
             <div  className='container_M'> 
 
                  <div className='header_M'> Matches </div>
-                 <img className='back_M' />
-                 <img onClick= {this.backClick} className='back_M' src={"./img/icon/back.png"}/> 
-            
+                 
+                 <div className='back_M'>
+                 <img onClick= {this.backClick} className='back_M' src={"./img/icon/backQuiz.png"}/> 
+                 </div>
                 {
                 profiles_dtb.map((currentProfile) => {
 
