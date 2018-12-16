@@ -9,15 +9,13 @@ class ProfBar extends React.Component {
     let barWidth = 88 - ((88/profiles_dtb.length)*(matchResult))+'vw';
     const c = {width: barWidth};
 
-    //88 = 100%
-    //((88/profiles_dtb.length)*(matchResult)) = den procenten som försvinner
-
-    let matchPercent = ;
+    let matchPercent = (((88 - ((88/profiles_dtb.length)*(matchResult)))/88)*100)
+    var fixed = matchPercent.toFixed(0);
 
     return (
 
         <div>
-            <p className='yourMatch'>{matchPercent}% match:</p>
+            <p className='yourMatch'>{fixed}% match:</p>
 
             <div className="bar">
 
