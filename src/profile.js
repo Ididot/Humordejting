@@ -8,7 +8,6 @@ class Profiles extends React.Component {
     constructor(){
         super(); 
         this.state = {
-             matchResult: 20
         }
         this.onClick = this.handleClick.bind(this);
     }
@@ -20,7 +19,6 @@ class Profiles extends React.Component {
     render() {
 
     const t = profiles_dtb[this.props.profileID];
-    let m = this.state.matchResult;
 
 		return (
 
@@ -58,7 +56,7 @@ class Profiles extends React.Component {
 
                     <div className='profBar_P'>
                     <p className='yourMatch'>73% match:</p>
-                    <Profbar  matchResult={m}/>
+                    <Profbar  matchResult={t.profileID}/>
                     </div>
 
                     <img onClick= {this.onClick} className='backWhite_P' src={"./img/icon/backWhite.png"}/> 
