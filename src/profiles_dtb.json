@@ -47,6 +47,47 @@
     "age": "40",
     "location": " Norra Västerås",
     "img":"tor.JPG"
+  },
+
+  {
+    "profileID": 5,
+    "name": " Sansa ",
+    "bio": " Don't care who u are, as long as ur not Joffrey or Ramsay ",
+    "gender": "Female",
+    "age": "19",
+    "location": " In a constant state of torture, it seems",
+    "img":"san.JPG"
+  },
+
+   {
+    "profileID": 6,
+    "name": " Margaery ",
+    "bio": " Please don't jump from a window ",
+    "gender": "Female",
+    "age": "19",
+    "location": " High garden",
+    "img":"mar.JPG"
+  },
+
+  {
+    "profileID": 7,
+    "name": " Cersei  ",
+    "bio": " I'll love u like a brother ",
+    "gender": "Female",
+    "age": "36",
+    "location": " King's Landing ",
+    "img":"cer.JPG"
+  },
+
+  {
+    "profileID": 8,
+    "name": " The Hound ",
+    "bio": " Fu'k off ",
+    "gender": "Fu'k off",
+    "age": "Fu'k off",
+    "location": " Fu'k off ",
+    "img":"hou.JPG"
   }
+
 
 ]
