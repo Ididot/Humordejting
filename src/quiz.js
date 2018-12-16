@@ -20,7 +20,7 @@ upClick(){
 
 	//Denna funktionen ska spara detta värde
 
-	if(this.state.memeProgression < memes.length-20)
+	if(this.state.memeProgression < memes.length-1)
 	{
 		this.setState({
 			memeProgression: this.state.memeProgression+1
@@ -34,7 +34,7 @@ upClick(){
 
 downClick(){
 
-	if(this.state.memeProgression < memes.length-20)
+	if(this.state.memeProgression < memes.length-1)
 	{
 		this.setState({
 			memeProgression: this.state.memeProgression+1
