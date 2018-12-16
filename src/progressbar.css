@@ -12,9 +12,10 @@
 
 .progressBar {
   position: absolute;
-  height: 6vw;
+  height: 8vw;
   border-radius: 0.3vw;
   padding-left: 2vw;
+  margin-top: -0.07px;
 
   line-height: 30px;
   text-align: center; 
@@ -22,14 +23,12 @@
   font-family: "Barlow", regular;
   font-size: 6vw;
 
-  color: #F8EDE1;
+  color: yellow; /*#F8EDE1;*/
   text-shadow: 2px 2px #262626;
 
   transition-duration: 1s;
-  padding: 1vw;
 
-  background-color: #3ed597
-
+  background-color: #FA762A;
 }
 
 

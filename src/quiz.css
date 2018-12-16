@@ -11,20 +11,19 @@
 .header_Q {
 	
 	 grid-column: 1 / 5;
-	 width: 95%;
+	 width: 100%;
 	 height: 15vw;
+	 margin-left: -0.85vw;
 
 	 border-radius: 0.9vw;
 
-	 font-size: 10vw;
-	 margin: auto; 
+	 font-size: 10vw; 
 	 text-align: center;
 	 vertical-align: center;
 	 font-family: "Barlow", regular;
 	 font-weight: bold;
 	 color: #F8EDE1;
-	 background-color: #262626;
-
+	 background-color: #FCC522; 
 	 /*background-image: linear-gradient(#204aff, #f40d3e);*/
 
   /* GRADIENTS
@@ -68,7 +67,7 @@ img.memePic_Q{
 
 .yes_Q:hover {
   	cursor: pointer;
-  	opacity: 0.8;
+  	opacity: 0.5;
 }
 
 .yes_Q:active {
@@ -90,7 +89,7 @@ img.memePic_Q{
 
 .nope_Q:hover {
   	cursor: pointer;
-  	opacity: 0.8;
+  	opacity: 0.5;
 }
 
 .nope_Q:active {
@@ -137,7 +136,7 @@ img.memePic_Q{
 }
 
 img.back_Q {
-padding-top: 1vw;
+	padding-top: 1vw;
     width:110%; 
     height: auto;
     margin-left: 2vw;

@@ -9,7 +9,7 @@ class Quiz extends React.Component {
 constructor(props){
 	super(props);
 	this.state = {
-		memeProgression: 2
+		memeProgression: 0
 	}
 	this.upClick = this.upClick.bind(this);
 	this.downClick = this.downClick.bind(this);
@@ -72,7 +72,7 @@ render(){
 
 				<img onClick= {this.upClick} className='yes_Q' src={"./img/icon/tummenupp.png"}/>
 				<img onClick= {this.downClick} className='nope_Q' src={"./img/icon/tummenner.png"}/>
-				<img className='back_Q' src={"./img/icon/backEmpty.png"}/> 
+				<img className='backEmpty_Q' src={"./img/icon/backEmpty.png"}/> 
 
 			</div>
 		)

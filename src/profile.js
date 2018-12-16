@@ -51,13 +51,13 @@ class Profiles extends React.Component {
                     </div>
 
                     <div className='name_P'> {t.name} </div>
-                    <div className='bio_P'> Bio: {t.bio} </div>
-                    <div className='gender_P'> Gender: {t.gender} </div>
-                    <div className='age_P'> Age: {t.age} </div>
-                    <div className='location_P'> Location: {t.location} </div>
+                    <div className='bio_P'> <b>Bio:</b> {t.bio} </div>
+                    <div className='gender_P'> <b>Gender:</b> {t.gender} </div>
+                    <div className='age_P'> <b>Age:</b> {t.age} </div>
+                    <div className='location_P'> <b>Location:</b> {t.location} </div>
 
                     <div className='profBar_P'>
-                    <p className='yourMatch'>Your match:</p>
+                    <p className='yourMatch'>73% match:</p>
                     <Profbar  matchResult={m}/>
                     </div>
 
