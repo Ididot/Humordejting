@@ -11,32 +11,32 @@
 
   {
     "profileID": 1,
-    "name": "Ramsay Bolton",
-    "bio": "I'm a calm and kind guy who likes taking long walks in the forest with my dogs :)",
+    "name": "Batman",
+    "bio": "You either die a hero, or live long enough to see yourself become a villain. I'm whatever Gotham needs me to be.",
     "gender": "Male",
-    "age": "25",
-    "location": "Västerås",
-    "img":"ram.JPG"
+    "age": "40",
+    "location": "Gotham City",
+    "img":"bat.JPG"
   },
 
   {
     "profileID": 2,
-    "name": "Jon Sno' ",
-    "bio": " I kno nottin' ",
-    "gender": "Not sure",
-    "age": "??",
-    "location": "I don't kno'",
-    "img":"jon.JPG"
+    "name": " The Hound ",
+    "bio": " Fuk off ",
+    "gender": "Fuk off",
+    "age": "Fuk off",
+    "location": " Fuk off ",
+    "img":"hou.JPG"
   },
 
  {
     "profileID": 3,
-    "name": "Brienne of Tarth",
-    "bio": " All my life men like you have sneered at me. And all my life I've been knocking men like you into the dust. And I'm a woman. Fite me.",
-    "gender": "Female",
-    "age": "30",
-    "location": "Västerås",
-    "img":"brien.JPG"
+    "name": "Mario",
+    "bio": "It's a Mii Mario!! Saving the princess and dealing with an overgrown turtle can be exhausting, so I'm looking for something fun to do here!",
+    "gender": "Male",
+    "age": "26",
+    "location": "Mushroom Kingdom",
+    "img":"mario.JPG"
   },
 
  {
@@ -61,36 +61,6 @@
 
    {
     "profileID": 6,
-    "name": " Margaery Tyrell",
-    "bio": " Please don't drink poison or jump from a window like my previous husbands did.",
-    "gender": "Female",
-    "age": "19",
-    "location": " Lowgarden",
-    "img":"mar.JPG"
-  },
-
-  {
-    "profileID": 7,
-    "name": " Cersei Lannister ",
-    "bio": " I'll love u like a brother ",
-    "gender": "Female",
-    "age": "36",
-    "location": " King's Launching ",
-    "img":"cer.JPG"
-  },
-
-  {
-    "profileID": 8,
-    "name": " The Hound ",
-    "bio": " Fuk off ",
-    "gender": "Fuk off",
-    "age": "Fuk off",
-    "location": " Fuk off ",
-    "img":"hou.JPG"
-  },
-
-  {
-    "profileID": 9,
     "name": " Cheryl ",
     "bio": " You're welcome to challenge me, but you'll lose. ",
     "gender": "Female",
@@ -99,8 +69,8 @@
     "img":"che.JPG"
   },
 
- {
-    "profileID": 10,
+  {
+    "profileID": 7,
     "name": " Ed  ",
     "bio": " Pizza is a circle. Pizza is my life. Pizza is the circle of life ",
     "gender": "Male",
@@ -110,13 +80,43 @@
   },
 
   {
-    "profileID": 11,
-    "name": " Willy Wonka  ",
-    "bio": "  ",
+    "profileID": 8,
+    "name": "Yuno Gasai",
+    "bio": "Yuuukkiiiii where are you hiding? Come out~",
+    "gender": "Female",
+    "age": "14",
+    "location": "Japan",
+    "img":"yun.JPG"
+  },
+
+  {
+    "profileID": 9,
+    "name": " Cersei Lannister ",
+    "bio": " I'll love u like a brother ",
+    "gender": "Female",
+    "age": "36",
+    "location": " King's Launching ",
+    "img":"cer.JPG"
+  },
+
+ {
+    "profileID": 10,
+    "name": "Dobby",
+    "bio": "I'm tired of being a free elf... Need a master to tie me down and make me do all the dirty chores ;) I'll gladly take your sock any day (or take it off, if you know what I mean ;))",
     "gender": "Male",
-    "age": "40",
-    "location": "Great Britain ",
-    "img":"wil.JPG"
+    "age": "??",
+    "location": "United Kingdom",
+    "img":"dob.JPG"
+  },
+
+  {
+    "profileID": 11,
+    "name": "Ramsay Bolton",
+    "bio": "I'm a calm and kind guy who likes taking long walks in the forest with my dogs :)",
+    "gender": "Male",
+    "age": "25",
+    "location": "Västerås",
+    "img":"ram.JPG"
   },
 
   {
@@ -131,42 +131,42 @@
   
   {
     "profileID": 13,
-    "name": "Mario",
-    "bio": "It's a Mii Mario!! Saving the princess and dealing with an overgrown turtle can be exhausting, so I'm looking for something fun to do here!",
+    "name": " Willy Wonka  ",
+    "bio": "  ",
     "gender": "Male",
-    "age": "26",
-    "location": "Mushroom Kingdom",
-    "img":"mario.JPG"
+    "age": "40",
+    "location": "Great Britain ",
+    "img":"wil.JPG"
   },
   
   {
     "profileID": 14,
-    "name": "Dobby",
-    "bio": "I'm tired of being a free elf... Need a master to tie me down and make me do all the dirty chores ;) I'll gladly take your sock any day (or take it off, if you know what I mean ;))",
-    "gender": "Male",
-    "age": "??",
-    "location": "United Kingdom",
-    "img":"dob.JPG"
+    "name": " Margaery Tyrell",
+    "bio": " Please don't drink poison or jump from a window like my previous husbands did.",
+    "gender": "Female",
+    "age": "19",
+    "location": " Lowgarden",
+    "img":"mar.JPG"
   },
   
   {
     "profileID": 15,
-    "name": "Yuno Gasai",
-    "bio": "Yuuukkiiiii where are you hiding? Come out~",
+    "name": "Brienne of Tarth",
+    "bio": " All my life men like you have sneered at me. And all my life I've been knocking men like you into the dust. And I'm a woman. Fite me.",
     "gender": "Female",
-    "age": "14",
-    "location": "Japan",
-    "img":"yun.JPG"
+    "age": "30",
+    "location": "Västerås",
+    "img":"brien.JPG"
   },
   
   {
     "profileID": 16,
-    "name": "Batman",
-    "bio": "You either die a hero, or live long enough to see yourself become a villain. I'm whatever Gotham needs me to be.",
-    "gender": "Male",
-    "age": "40",
-    "location": "Gotham City",
-    "img":"bat.JPG"
+    "name": "Jon Sno' ",
+    "bio": " I kno nottin' ",
+    "gender": "Not sure",
+    "age": "??",
+    "location": "I don't kno'",
+    "img":"jon.JPG"
   }
 ]
 
