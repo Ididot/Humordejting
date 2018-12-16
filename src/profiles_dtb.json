@@ -127,9 +127,46 @@
     "age": "51",
     "location": "New York",
     "img":""
+  },
+  
+  {
+    "profileID": 13,
+    "name": "Mario",
+    "bio": "It's a Mii Mario!!",
+    "gender": "Male",
+    "age": "26",
+    "location": "Mushroom Kingdom",
+    "img":"mario.png"
+  },
+  
+  {
+    "profileID": 14,
+    "name": "Dobby",
+    "bio": "",
+    "gender": "Male",
+    "age": "Unspecified",
+    "location": "United Kingdom",
+    "img":"dobby.png"
+  },
+  
+  {
+    "profileID": 15,
+    "name": "Yuno Gasai",
+    "bio": "Yuuukkiiiii where are you hiding? Come out~",
+    "gender": "Female",
+    "age": "14",
+    "location": "Japan",
+    "img":"yuno.png"
+  },
+  
+  {
+    "profileID": 16,
+    "name": "Batman",
+    "bio": "  ",
+    "gender": "Male",
+    "age": "40",
+    "location": "Gotham City",
+    "img":"batman.png"
   }
-
-
-
 ]
 
