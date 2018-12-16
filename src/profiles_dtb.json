@@ -25,14 +25,14 @@
     "bio": " I kno nottin' ",
     "gender": "Not sure",
     "age": "Don't remember",
-    "location": "I don't know",
+    "location": "I don't kno'",
     "img":"jon.JPG"
   },
 
  {
     "profileID": 3,
     "name": "Brienne of Tarth",
-    "bio": " Fite me ",
+    "bio": " All my life men like you have sneered at me. And all my life I've been knocking men like you into the dust. And I'm a woman.\r\rFite me.",
     "gender": "Female",
     "age": "30",
     "location": "Västerås",
@@ -51,8 +51,8 @@
 
   {
     "profileID": 5,
-    "name": " Sansa ",
-    "bio": " Don't care who u are, as long as ur not Joffrey or Ramsay ",
+    "name": " Sansa Stark",
+    "bio": " Don't care who u are, as long as ur not Joffrey, Ramsay or Littlefinger.",
     "gender": "Female",
     "age": "19",
     "location": " In a constant state of torture, it seems",
@@ -61,11 +61,11 @@
 
    {
     "profileID": 6,
-    "name": " Margaery ",
-    "bio": " Please don't jump from a window ",
+    "name": " Margaery Tyrell",
+    "bio": " Please don't drink poison or jump from a window like my previous husbands did.",
     "gender": "Female",
     "age": "19",
-    "location": " High garden",
+    "location": " Lowgarden",
     "img":"mar.JPG"
   },
 
@@ -75,7 +75,7 @@
     "bio": " I'll love u like a brother ",
     "gender": "Female",
     "age": "36",
-    "location": " King's Landing ",
+    "location": " King's Launching ",
     "img":"cer.JPG"
   },
 
