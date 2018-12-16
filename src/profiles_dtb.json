@@ -12,7 +12,7 @@
   {
     "profileID": 1,
     "name": "Ramsay Bolton",
-    "bio": "I'm a calm and kind guy who likes talking long walks in the forest with my dogs :)",
+    "bio": "I'm a calm and kind guy who likes taking long walks in the forest with my dogs :)",
     "gender": "Male",
     "age": "25",
     "location": "Västerås",
@@ -24,7 +24,7 @@
     "name": "Jon Sno' ",
     "bio": " I kno nottin' ",
     "gender": "Not sure",
-    "age": "Don't remember",
+    "age": "??",
     "location": "I don't kno'",
     "img":"jon.JPG"
   },
@@ -32,7 +32,7 @@
  {
     "profileID": 3,
     "name": "Brienne of Tarth",
-    "bio": " All my life men like you have sneered at me. And all my life I've been knocking men like you into the dust. And I'm a woman.\r\rFite me.",
+    "bio": " All my life men like you have sneered at me. And all my life I've been knocking men like you into the dust. And I'm a woman. Fite me.",
     "gender": "Female",
     "age": "30",
     "location": "Västerås",
@@ -82,10 +82,10 @@
   {
     "profileID": 8,
     "name": " The Hound ",
-    "bio": " Fu'k off ",
-    "gender": "Fu'k off",
-    "age": "Fu'k off",
-    "location": " Fu'k off ",
+    "bio": " Fuk off ",
+    "gender": "Fuk off",
+    "age": "Fuk off",
+    "location": " Fuk off ",
     "img":"hou.JPG"
   },
 
@@ -96,7 +96,7 @@
     "gender": "Female",
     "age": "17",
     "location": " Vancouver ",
-    "img":""
+    "img":"che.JPG"
   },
 
  {
@@ -106,7 +106,7 @@
     "gender": "Male",
     "age": "27",
     "location": "Ireland ",
-    "img":""
+    "img":"ed.JPG"
   },
 
   {
@@ -116,7 +116,7 @@
     "gender": "Male",
     "age": "40",
     "location": "Great Britain ",
-    "img":""
+    "img":"wil.JPG"
   },
 
   {
@@ -126,27 +126,27 @@
     "gender": "Male",
     "age": "51",
     "location": "New York",
-    "img":""
+    "img":"ros.JPG"
   },
   
   {
     "profileID": 13,
     "name": "Mario",
-    "bio": "It's a Mii Mario!!\r\rSaving the princess and dealing with an overgrown turtle can be exhausting, so I'm looking for something fun to do here!",
+    "bio": "It's a Mii Mario!! Saving the princess and dealing with an overgrown turtle can be exhausting, so I'm looking for something fun to do here!",
     "gender": "Male",
     "age": "26",
     "location": "Mushroom Kingdom",
-    "img":"mario.png"
+    "img":"mario.JPG"
   },
   
   {
     "profileID": 14,
     "name": "Dobby",
-    "bio": "I'm tired of being a free elf...\rNeed a master to tie me down and make me do all the dirty chores ;)\rI'll gladly take your sock any day (or take it off, if you know what I mean ;))",
+    "bio": "I'm tired of being a free elf... Need a master to tie me down and make me do all the dirty chores ;) I'll gladly take your sock any day (or take it off, if you know what I mean ;))",
     "gender": "Male",
-    "age": "Unspecified",
+    "age": "??",
     "location": "United Kingdom",
-    "img":"dobby.png"
+    "img":"dob.JPG"
   },
   
   {
@@ -156,7 +156,7 @@
     "gender": "Female",
     "age": "14",
     "location": "Japan",
-    "img":"yuno.png"
+    "img":"yun.JPG"
   },
   
   {
@@ -166,7 +166,7 @@
     "gender": "Male",
     "age": "40",
     "location": "Gotham City",
-    "img":"batman.png"
+    "img":"bat.JPG"
   }
 ]
 

@@ -21,6 +21,7 @@
 	 text-align: center;
 	 vertical-align: center;
 	 font-family: "Barlow", regular;
+	 text-shadow: 2px 2px #262626;
 	 font-weight: bold;
 	 color: #F8EDE1;
 	 background-color: #FCC522; 
@@ -72,7 +73,7 @@ img.memePic_Q{
 
 .yes_Q:active {
   	cursor: pointer;
-  	transform: translateY(17px);
+  	transform: translateY(10px);
   	transition-duration: 0.2s;
   	opacity: 1;
   	filter: brightness(60%);
@@ -94,7 +95,7 @@ img.memePic_Q{
 
 .nope_Q:active {
   	cursor: pointer;
-  	transform: translateY(17px);
+  	transform: translateY(10px);
   	transition-duration: 0.2s;
   	opacity: 1;
   	filter: brightness(60%);
@@ -114,7 +115,7 @@ img.memePic_Q{
 
 .back_Q:active {
   	cursor: pointer;
-  	transform: translateY(17px);
+  	transform: translateY(10px);
   	transition-duration: 0.2s;
   	opacity: 1;
   	filter: brightness(60%);

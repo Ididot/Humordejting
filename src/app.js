@@ -12,7 +12,7 @@ class App extends Component {
   {
     super(props);
     this.state = {
-      currentPage: 'welcome'
+      currentPage: 'match'
     };
 
     this.changePage = this.changePage.bind(this);

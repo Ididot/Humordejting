@@ -1,4 +1,5 @@
 import React from 'react';
+import './welcome.css';
 
 class Welcome extends React.Component {
 
@@ -17,9 +18,9 @@ handleClick(event){
 render(){ 
 
 	return (
-		<div className="welcome_bg">
-		<div className="welcome_txt">Welcome to Happ! You will be doing a quiz</div>
-			<img onClick= {this.onClick} className="arrow" src={"./img/icon/tummenupp.png"}/>
+		<div className= 'container_W'>
+		<div className = 'text_W'>Yo Yo gonna do quiz!</div>
+			<img className='welcomeButton'onClick= {this.onClick} src={"./img/icon/tummenupp.png"}/>
 		</div>
 	)
 }

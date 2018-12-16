@@ -19,8 +19,8 @@
   font-size: 10vw;
   margin-left: 0.4vw; 
   text-align: center;
-  vertical-align: center;
-  font-family: "Barlow", regular, ;
+  font-family: "Barlow", regular;
+  text-shadow: 2px 2px #262626;
   font-weight: bold;
   color: #F8EDE1;
   background-color: #FC3E66;
@@ -35,6 +35,7 @@
 
 .name_M {
 	text-align: center;
+  font-family: "Barlow", regular;
 }
 
 .prog_M{
@@ -78,7 +79,7 @@ img.photo_M:active {
 
 .back_M:active {
     cursor: pointer;
-    transform: translateY(17px);
+    transform: translateY(10px);
     transition-duration: 0.2s;
     opacity: 1;
     filter: brightness(60%);

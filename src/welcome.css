@@ -1,39 +1,61 @@
-.welcome_txt {
-	padding: 2%;
+
+.container_W {
+
 	display: grid;
-	grid-template-columns: 10%  32%  32% 23%;;
-	grid-template-rows: repeat(6, minmax(80px, max-content));
-	grid-gap: 10px;
-	background-color: #F8EDE1;
+  	padding: 1vw;
+	grid-template-areas: auto;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(16, minmax(10vw, max-content));
+	grid-gap: 0.5vw;
+  	
 
-	grid-area: 3 / 2 / 4 / 5;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+ 
 }
 
-.welcome_bg {
-	padding: 2%;
-	display: grid;
-	grid-template-columns: 10%  32%  32% 23%;;
-	grid-template-rows: repeat(6, minmax(80px, max-content));
-	grid-gap: 10px;
-	background-color: #F8EDE1;
+.text_W{
+	grid-area: 4/2/6/6;
+
+	font-size: 10vw;
+  	margin-left: 0.4vw; 
+  	text-align: center;
+  	vertical-align: center;
+  	font-family: "Barlow", regular;
+  	text-shadow: 2px 2px #262626;
+  	font-weight: bold;
+  	color: #F8EDE1;
 }
 
-.arrow{
-	grid-area: 5 / 2 / 4 / 5;
-	padding-left: 8vw;
-	padding-top: 5vw;
-	width:20%;
+@keyframes example {
+  0%   {background-color: #ff3228;}	/*red*/
+  12.5%  {background-color: #ff8c11;} /*orange*/
+  25%  {background-color: #ffe41c;} /*yellow*/ 
+  37.5%  {background-color: #5ced23;} /*Green*/
+  50%  {background-color: #28ef8f;} /*Teal*/
+  62.5% {background-color: #21a2f2;} /*Blue*/
+  75% {background-color: #6620f1;} /*indigo*/
+  100% {background-color: #e31ff0;} /*Purple*/
 }
 
-.arrow:hover {
-  	cursor: pointer;
-  	opacity: 0.8;
+.welcomeButton{
+	width: 200%;
+	grid-area: 6 / 3 / 8 / 4;
+	margin-top: 5vw;
 }
 
-.arrow:active {
-  	cursor: pointer;
-  	transform: translateY(17px);
-  	transition-duration: 0.2s;
-  	opacity: 1;
-  	filter: brightness(60%);
+.welcomeButton:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.welcomeButton:active {
+    cursor: pointer;
+    transform: translateY(10px);
+    transition-duration: 0.2s;
+    opacity: 1;
+    filter: brightness(60%);
 }
