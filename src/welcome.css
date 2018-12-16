@@ -1,0 +1,39 @@
+.welcome_txt {
+	padding: 2%;
+	display: grid;
+	grid-template-columns: 10%  32%  32% 23%;;
+	grid-template-rows: repeat(6, minmax(80px, max-content));
+	grid-gap: 10px;
+	background-color: #F8EDE1;
+
+	grid-area: 3 / 2 / 4 / 5;
+}
+
+.welcome_bg {
+	padding: 2%;
+	display: grid;
+	grid-template-columns: 10%  32%  32% 23%;;
+	grid-template-rows: repeat(6, minmax(80px, max-content));
+	grid-gap: 10px;
+	background-color: #F8EDE1;
+}
+
+.arrow{
+	grid-area: 5 / 2 / 4 / 5;
+	padding-left: 8vw;
+	padding-top: 5vw;
+	width:20%;
+}
+
+.arrow:hover {
+  	cursor: pointer;
+  	opacity: 0.8;
+}
+
+.arrow:active {
+  	cursor: pointer;
+  	transform: translateY(17px);
+  	transition-duration: 0.2s;
+  	opacity: 1;
+  	filter: brightness(60%);
+}
