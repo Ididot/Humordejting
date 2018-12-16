@@ -132,7 +132,7 @@
   {
     "profileID": 13,
     "name": "Mario",
-    "bio": "It's a Mii Mario!!",
+    "bio": "It's a Mii Mario!!\r\rSaving the princess and dealing with an overgrown turtle can be exhausting, so I'm looking for something fun to do here!",
     "gender": "Male",
     "age": "26",
     "location": "Mushroom Kingdom",
@@ -142,7 +142,7 @@
   {
     "profileID": 14,
     "name": "Dobby",
-    "bio": "",
+    "bio": "I'm tired of being a free elf...\rNeed a master to tie me down and make me do all the dirty chores ;)\rI'll gladly take your sock any day (or take it off, if you know what I mean ;))" ;))",
     "gender": "Male",
     "age": "Unspecified",
     "location": "United Kingdom",
@@ -162,7 +162,7 @@
   {
     "profileID": 16,
     "name": "Batman",
-    "bio": "  ",
+    "bio": "",
     "gender": "Male",
     "age": "40",
     "location": "Gotham City",
