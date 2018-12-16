@@ -1,27 +1,23 @@
 import React from 'react';
 import './resultbar.css';
-
-const barWidth = 100;
-
-const steps = 10;
+import profiles_dtb from './profiles_dtb.json';
 
 class ResultBar extends React.Component {
 
-render(){ 
+  render() {
 
-	const matchResult = this.props.matchResult;
-    let barWidth = matchResult * steps * 2;
+    const matchResult = this.props.matchResult;
+    let barWidth = 19 - ((19/profiles_dtb.length)*(matchResult))+'vw';
    	const c = {width: barWidth};
 
-    barWidth = Math.min(barWidth, barWidth);
-    barWidth = Math.max(barWidth);
+    return (<div className="result">
 
-		return (
-			<div className="result" >
-		        <div className="resultBar" style={c} >
-		        </div>
+	        <div className="resultBar" style={c}>
+	    
 	        </div>
-		)
-	}
+        </div>
+
+        ); 
+  }
 }
 export default ResultBar
