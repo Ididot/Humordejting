@@ -1,0 +1,63 @@
+[
+  {
+    "memeID": 0,
+    "bio": "*pika*",
+    "image": "pika.jpg"
+  },
+
+
+  {
+    "memeID": 1,
+    "bio": "Drunknar du ger jag dig en high five",
+    "image": "five.JPG"
+  },
+
+  {
+    "memeID": 2,
+    "bio": "En fin ödla",
+    "image": "lizard.PNG"
+  },
+  
+  {
+    "memeID": 3,
+    "bio": "Donanod or Dlanald",
+    "image": "unitnuWWW.jpg"
+  },
+  
+  {
+    "memeID": 4,
+    "bio": "Welcome the guests, Speaker and Mike!",
+    "image": "speakermic.jpg"
+  },
+  
+  {
+    "memeID": 5,
+    "bio": "Smokin' hot grandpa",
+    "image": "cremation.jpg"
+  },
+  
+  {
+    "memeID": 6,
+    "bio": "Magister Gandalf has spoken",
+    "image": "youshallnotpass.jpg"
+  },
+  
+  {
+    "memeID": 7,
+    "bio": "Do you know da wey?",
+    "image": "dawey.jpg"
+  },
+  
+  {
+    "memeID": 8,
+    "bio": "such amaze wow",
+    "image": "doge.jpg"
+  },
+  
+  {
+    "memeID": 9,
+    "bio": "*heavy breathing intensifies*",
+    "image": "heavybreathing.jpg"
+  }
+
+ ]

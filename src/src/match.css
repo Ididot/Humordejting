@@ -1,0 +1,94 @@
+.container_M {
+
+	display: grid;
+  padding: 3vw;
+	grid-template-columns: 20vw 20vw 20vw 20vw;
+	grid-template-rows: repeat(10, minmax(10vw, max-content));
+	grid-gap: 4vw;
+  background-color: #F8EDE1;
+}
+
+.header_M {
+	grid-area: 1 / 1 / 2 / 5;
+
+  width:100%; 
+  height: 15vw;
+
+  border-radius: 0.9vw;
+
+  font-size: 10vw;
+  margin-left: 0.4vw; 
+  text-align: center;
+  font-family: "Barlow", regular;
+  text-shadow: 2px 2px #262626;
+  font-weight: bold;
+  color: #F8EDE1;
+  background-color: #FC3E66;
+
+  z-index: 1;
+}
+
+.photo_M {
+
+ 
+}
+
+.name_M {
+	text-align: center;
+  font-family: "Barlow", regular;
+}
+
+.prog_M{
+  width:100%;
+}
+
+
+
+img.photo_M { /* kopplar med MatchMini.js */
+    width:90%; 
+    height: auto;
+  	margin: 10px;
+    box-shadow: 0 0 0 4px #262626;
+    border-radius: 50% 1vw;
+}
+
+img.photo_M:hover {
+  	opacity: 0.5;
+  	cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+img.photo_M:active {
+    cursor: pointer;
+    transform: translateY(17px);
+    transition-duration: 0.2s;
+    opacity: 1;
+    filter: brightness(60%);
+}
+
+
+.back_M{
+  grid-area: 1 / 1 / 2 / 2;
+  z-index: 2;
+}
+.back_M:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.back_M:active {
+    cursor: pointer;
+    transform: translateY(10px);
+    transition-duration: 0.2s;
+    opacity: 1;
+    filter: brightness(60%);
+}
+
+img.back_M {
+  
+    max-width:50%;
+    height: auto;
+    margin-left: 6vw;
+    padding-top: 3vw;
+}

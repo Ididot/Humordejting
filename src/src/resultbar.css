@@ -1,0 +1,23 @@
+.result {
+  position: relative;
+  height: 1.6vw;
+  border-radius: 0.3vw;
+  width: 19vw;
+  background-color: transparent;
+  z-index: 2;
+  border: 0.3vw solid #262626;
+}
+
+.resultBar {
+  position: absolute;
+  height: 1.6vw;
+
+  background-color: #FC3E66;
+
+  transition-duration: 1s;
+  z-index: 1;
+}
+
+
+
+

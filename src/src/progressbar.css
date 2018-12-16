@@ -1,0 +1,65 @@
+.progress {
+  position: relative;
+  height: 8vw;
+  border-radius: 0.9vw;
+  width: 69vw;
+  color: #68b4d3;
+  background-color: transparent;
+  z-index: 2;
+  border: 0.7vw solid #262626;
+  margin-left: 3vw;
+}
+
+.progressBar {
+  position: absolute;
+  height: 8vw;
+  border-radius: 0.3vw;
+  padding-left: 2vw;
+  margin-top: -0.07px;
+
+  line-height: 30px;
+  text-align: center; 
+  font-weight: bold;
+  font-family: "Barlow", regular;
+  font-size: 6vw;
+
+  color: yellow; /*#F8EDE1;*/
+  text-shadow: 2px 2px #262626;
+
+  transition-duration: 1s;
+
+  background-color: #FA762A;
+}
+
+
+
+
+
+/*
+
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+
+
+  background-color: #3ed597;
+  animation-name: colorAnimation;
+  animation-duration: 3s;
+
+
+@keyframes colorAnimation {
+  0%   {background-color: #3ed597;}
+  25%  {background-color: #ca9e26;}
+  50%  {background-color: #f48241;}
+  75% {background-color: #d94781;}
+  100% {background-color: #8d5294;}
+} */
+
+  /* GRADIENTS
+
+  Pink-Blue: #ffa3d0, #11ddff
+  darkBlue-Redisch: #204aff, #f40d3e
+  Orange-Yellow: #ff5502, #ffd129
+  Blue-Turquoise: #16ccfa, #0de6b9
+  Lime-Yellow: #0cdfa4, #fde909
+*/

@@ -1,0 +1,25 @@
+.bar {
+  position: relative;
+  height: 8vw;
+  border-radius: 0.9vw;
+  width: 90vw;
+  color: #68b4d3;
+  background-color: transparent;
+  z-index: 2;
+  border: 0.7vw solid #262626;
+  margin-left: 2vw;
+}
+
+.profbar {
+  position: absolute;
+  height: 8vw;
+  border-radius: 0.3vw;
+
+  background-color: #FC3E66;
+  transition-duration: 1s;
+
+  padding-left: 2vw;
+
+  transition-duration: 1s;
+  z-index: 1;
+}
