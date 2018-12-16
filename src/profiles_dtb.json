@@ -2,7 +2,7 @@
   {
     "profileID": 0,
     "name": " Khaleesi ",
-    "bio": " I <3 Imagine dragons ",
+    "bio": "I <3 Imagine dragons",
     "gender": "Female",
     "age": "21",
     "location": "Västerås",
@@ -12,7 +12,7 @@
   {
     "profileID": 1,
     "name": "Ramsay Bolton",
-    "bio": " I enjoy long walks in the forest wing walks in the forest wing walks in the forest wing walks in the forest wing walks in the forest wing walks in the forest with my doggies",
+    "bio": " ",
     "gender": "Male",
     "age": "25",
     "location": "Västerås",
@@ -23,9 +23,9 @@
     "profileID": 2,
     "name": "Jon Sno' ",
     "bio": " I kno nottin' ",
-    "gender": "Male",
-    "age": "22",
-    "location": "Västerås",
+    "gender": "Not sure",
+    "age": "Don't remember",
+    "location": "I don't know",
     "img":"jon.JPG"
   },
 
