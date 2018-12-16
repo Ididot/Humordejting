@@ -15,7 +15,6 @@ class Match extends React.Component {
     constructor(){
         super(); 
         this.state = {
-            matchResult: 6 //NN - kopplar med resultbar (~line 49)
         }
 
         this.backClick = this.backClick.bind(this);
@@ -32,7 +31,6 @@ class Match extends React.Component {
 
 
         //console.log(profiles_dtb);
-        let m = this.state.matchResult; //NN
       
 		return (
          
@@ -55,7 +53,7 @@ class Match extends React.Component {
                                 </div>
                                 
                                 <div  className='prog_M'>
-                                <ResultBar matchResult={m--}/>
+                                    <ResultBar matchResult={currentProfile.profileID}/>
                                 </div>
 
                             </div>
