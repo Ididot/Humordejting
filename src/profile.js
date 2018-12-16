@@ -55,7 +55,6 @@ class Profiles extends React.Component {
                     <div className='location_P'> <b>Location:</b> {t.location} </div>
 
                     <div className='profBar_P'>
-                    <p className='yourMatch'>73% match:</p>
                     <Profbar  matchResult={t.profileID}/>
                     </div>
 
