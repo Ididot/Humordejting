@@ -48,7 +48,6 @@ img.photo_P {
   	box-shadow: 0 0 0 10px white;
 }
 
-
 .name_P{
 	grid-area: 2 / 2 / 3 / 6;
 
@@ -153,12 +152,9 @@ img.photo_P {
 
 .profBar_P{
 	grid-area: 5 / 1 / 6 / 7;
-
 	padding: 2vw;
 	margin-top: -8vw;
-
 	z-index: 2;
-
 }
 
 .yourMatch {
@@ -166,6 +162,28 @@ img.photo_P {
 	margin-top: 11vw;
 	font-family: "Barlow", regular;
 	font-size: 5vw;
+}
+
+.meme_P {
+	text-align: center;
+	margin-top: 3vw;
+	margin-bottom: 4vw;
+	font-family: "Barlow", regular;
+	font-size: 5vw;
+}
+.meme{
+	grid-area: 6 / 1 / 6 / 7;
+	margin-top: 2vw;
+	z-index: 3;
+}
+
+img.meme {
+    width: 40%;
+	margin-bottom: 2vw;
+	margin-right: 5vw;
+	margin-left: 28vw;
+    height: auto;
+  	box-shadow: 0 0 0 4px #262626;
 }
 
 
