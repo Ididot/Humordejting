@@ -26,7 +26,7 @@
 	grid-area:  3 / 1 / 7 / 7;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
-	border-top-color: #262626;
+	border-top-color: #ffffff;
 	border-top-style: solid;
 	margin-top: -1.3vw;
 	background-color: #F8EDE1;
@@ -70,7 +70,7 @@ img.photo_P {
 	color: #424242; /* dark grey*/
 	line-height: 40px;
 	font-family: "Barlow", regular;
-	padding: 5vw 1vw 0 12vw;
+	padding: 5vw 1vw 5vw 12vw;
 	margin-right: 4vw;
 	text-align: justify;
 	z-index: 2;
@@ -159,9 +159,13 @@ img.photo_P {
 
 .yourMatch {
 	text-align: center;
-	margin-top: 11vw;
+	margin-top: 8vw;
 	font-family: "Barlow", regular;
 	font-size: 5vw;
+	padding: 5vw 0vw 0vw 0vw;
+
+	border-top-color: #ffffff;
+	border-top-style: solid;
 }
 
 .meme_P {
