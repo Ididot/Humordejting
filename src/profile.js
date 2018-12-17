@@ -57,6 +57,14 @@ class Profiles extends React.Component {
                     <div className='profBar_P'>
                     <Profbar  matchResult={t.profileID}/>
                     </div>
+			
+			<div className='meme'>
+                    <div className='meme_P'> Mutual LOLs: </div>
+                    <img className='meme' src={"./img/./quiz/pika.jpg"}/>
+                    <img className='meme' src={"./img/./quiz/lizard.PNG"}/>
+                    <img className='meme' src={"./img/./quiz/speakermic.jpg"}/>
+                    <img className='meme' src={"./img/./quiz/dawey.jpg"}/>
+                    </div>
 
                     <img onClick= {this.onClick} className='backWhite_P' src={"./img/icon/backWhite.png"}/> 
 
