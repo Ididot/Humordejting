@@ -5,7 +5,7 @@
   padding: 1vw;
 	grid-template-areas: auto;
 	grid-template-columns: repeat(6, 1fr);
-	grid-template-rows: repeat(8, minmax(10vw, max-content));
+	grid-template-rows: repeat(14, minmax(10vw, max-content));
 	grid-gap: 0.5vw;
   	
 
