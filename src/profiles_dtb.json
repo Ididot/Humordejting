@@ -121,8 +121,8 @@
 
   {
     "profileID": 12,
-    "name": " Ross  ",
-    "bio": "  ",
+    "name": "Ross",
+    "bio": "We were on a BREAK!",
     "gender": "Male",
     "age": "51",
     "location": "New York",
@@ -131,11 +131,11 @@
   
   {
     "profileID": 13,
-    "name": " Willy Wonka  ",
-    "bio": "  ",
+    "name": "Willy Wonka",
+    "bio": " Good morning starshine, the earth says hello! ",
     "gender": "Male",
     "age": "40",
-    "location": "Great Britain ",
+    "location": "Great Britain",
     "img":"wil.JPG"
   },
   
