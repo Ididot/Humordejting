@@ -23,7 +23,7 @@
   font-family: "Barlow", regular;
   font-size: 6vw;
 
-  color: yellow; /*#F8EDE1;*/
+  color: #F8EDE1; 
   text-shadow: 2px 2px #262626;
 
   transition-duration: 1s;
