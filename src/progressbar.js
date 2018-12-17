@@ -13,7 +13,7 @@ class ProgressBar extends React.Component {
     return (<div className="progress">
 
 	        <div className="progressBar" style={c}>
-	    	{memeProgression}
+	    	{memeProgression+1}
 	        </div>
         </div>
 
