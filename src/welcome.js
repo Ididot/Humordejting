@@ -19,7 +19,7 @@ render(){
 
 	return (
 		<div className= 'container_W'>
-		<div className = 'text_W'>Yo Yo gonna do quiz!</div>
+		<div className = 'text_W'> Welcome to Happ! <br></br> Are you ready <br></br>  to take the quiz?  </div>
 			<img className='welcomeButton'onClick= {this.onClick} src={"./img/icon/tummenupp.png"}/>
 		</div>
 	)
