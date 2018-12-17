@@ -48,7 +48,7 @@ img.photo_M { /* kopplar med MatchMini.js */
     width:90%; 
     height: auto;
   	margin: 10px;
-    box-shadow: 0 0 0 4px #262626;
+    box-shadow: 0 0 0 4px #ffffff;
     border-radius: 50% 1vw;
 }
 
